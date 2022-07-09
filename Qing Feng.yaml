@@ -5,71 +5,259 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN中国丨感谢您的赞助, server: 36.134.116.212, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 0489fad1-e23d-4f47-b759-ddc4d4122498, udp: true}
-  - {name: 🇨🇿 CZ捷克丨感谢您的赞助, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 195.133.53.192}}, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 2, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 3, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 4, server: pp1.zhengzhongfeizhu.xyz, port: 33001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 5, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 6, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 7, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 8, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 9, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 10, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助 11, server: 116.129.253.134, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇸 RS塞尔维亚丨感谢您的赞助, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助, server: 89.31.126.147, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 2, server: 89.31.126.147, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 3, server: 89.31.126.147, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 4, server: 194.156.231.251, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 2, server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 3, server: 38.114.114.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 4, server: 38.114.114.49, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 5, server: 38.114.114.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 5, server: 85.208.108.59, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 6, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 7, server: 85.208.108.59, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 8, server: 85.208.108.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 9, server: 85.208.108.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 6, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 7, server: 38.114.114.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 10, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 11, server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 12, server: 85.208.108.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 13, server: 85.208.108.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 14, server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 15, server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 16, server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 17, server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 18, server: 85.208.108.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 19, server: 85.208.108.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 20, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 21, server: 85.208.108.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 8, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 22, server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 23, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 9, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 24, server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 25, server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 10, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 26, server: 85.208.108.59, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 11, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 12, server: 167.88.61.213, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 27, server: 85.208.108.59, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 13, server: 167.88.61.213, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 28, server: 85.208.108.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 14, server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 15, server: 167.88.61.213, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 29, server: 5.183.176.96, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 30, server: 85.208.108.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 31, server: 85.208.108.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 32, server: 85.208.108.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 33, server: 85.208.108.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 16, server: 167.88.61.213, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 34, server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 35, server: 85.208.108.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 36, server: 85.208.108.59, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 37, server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助 38, server: 85.208.108.59, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 17, server: 167.88.61.213, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 18, server: 167.88.61.213, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 19, server: 167.88.61.213, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助 20, server: 167.88.61.213, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
 proxy-groups:
   - name: WeoworksX维欧工作室😎
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 200
     proxies:
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - WeoworksX维欧工作室😎
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,18 +276,65 @@ proxy-groups:
       - WeoworksX维欧工作室😎
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -110,53 +345,194 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - WeoworksX维欧工作室😎
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: 📲 电报@WeoworksX
     type: select
     proxies:
       - WeoworksX维欧工作室😎
       - 🎯 全球直连
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - WeoworksX维欧工作室😎
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -171,18 +547,65 @@ proxy-groups:
       - WeoworksX维欧工作室😎
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN中国丨感谢您的赞助
-      - 🇨🇿 CZ捷克丨感谢您的赞助
-      - 🇨🇳 CN中国丨感谢您的赞助 2
-      - 🇨🇳 CN中国丨感谢您的赞助 3
-      - 🇨🇳 CN中国丨感谢您的赞助 4
-      - 🇨🇳 CN中国丨感谢您的赞助 5
-      - 🇨🇳 CN中国丨感谢您的赞助 6
-      - 🇨🇳 CN中国丨感谢您的赞助 7
-      - 🇨🇳 CN中国丨感谢您的赞助 8
-      - 🇨🇳 CN中国丨感谢您的赞助 9
-      - 🇨🇳 CN中国丨感谢您的赞助 10
-      - 🇨🇳 CN中国丨感谢您的赞助 11
+      - 🇷🇸 RS塞尔维亚丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助
+      - 🇯🇵 JP日本丨感谢您的赞助 2
+      - 🇯🇵 JP日本丨感谢您的赞助 3
+      - 🇯🇵 JP日本丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助
+      - 🇺🇸 US美国丨感谢您的赞助 2
+      - 🇺🇸 US美国丨感谢您的赞助 3
+      - 🇺🇸 US美国丨感谢您的赞助 4
+      - 🇺🇸 US美国丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 5
+      - 🇯🇵 JP日本丨感谢您的赞助 6
+      - 🇯🇵 JP日本丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 9
+      - 🇺🇸 US美国丨感谢您的赞助 6
+      - 🇺🇸 US美国丨感谢您的赞助 7
+      - 🇯🇵 JP日本丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 11
+      - 🇯🇵 JP日本丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 14
+      - 🇯🇵 JP日本丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 17
+      - 🇯🇵 JP日本丨感谢您的赞助 18
+      - 🇯🇵 JP日本丨感谢您的赞助 19
+      - 🇯🇵 JP日本丨感谢您的赞助 20
+      - 🇯🇵 JP日本丨感谢您的赞助 21
+      - 🇺🇸 US美国丨感谢您的赞助 8
+      - 🇯🇵 JP日本丨感谢您的赞助 22
+      - 🇯🇵 JP日本丨感谢您的赞助 23
+      - 🇺🇸 US美国丨感谢您的赞助 9
+      - 🇯🇵 JP日本丨感谢您的赞助 24
+      - 🇯🇵 JP日本丨感谢您的赞助 25
+      - 🇺🇸 US美国丨感谢您的赞助 10
+      - 🇯🇵 JP日本丨感谢您的赞助 26
+      - 🇺🇸 US美国丨感谢您的赞助 11
+      - 🇺🇸 US美国丨感谢您的赞助 12
+      - 🇯🇵 JP日本丨感谢您的赞助 27
+      - 🇺🇸 US美国丨感谢您的赞助 13
+      - 🇯🇵 JP日本丨感谢您的赞助 28
+      - 🇺🇸 US美国丨感谢您的赞助 14
+      - 🇺🇸 US美国丨感谢您的赞助 15
+      - 🇯🇵 JP日本丨感谢您的赞助 29
+      - 🇯🇵 JP日本丨感谢您的赞助 30
+      - 🇯🇵 JP日本丨感谢您的赞助 31
+      - 🇯🇵 JP日本丨感谢您的赞助 32
+      - 🇯🇵 JP日本丨感谢您的赞助 33
+      - 🇺🇸 US美国丨感谢您的赞助 16
+      - 🇯🇵 JP日本丨感谢您的赞助 34
+      - 🇯🇵 JP日本丨感谢您的赞助 35
+      - 🇯🇵 JP日本丨感谢您的赞助 36
+      - 🇯🇵 JP日本丨感谢您的赞助 37
+      - 🇯🇵 JP日本丨感谢您的赞助 38
+      - 🇺🇸 US美国丨感谢您的赞助 17
+      - 🇺🇸 US美国丨感谢您的赞助 18
+      - 🇺🇸 US美国丨感谢您的赞助 19
+      - 🇺🇸 US美国丨感谢您的赞助 20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9980,5 +10403,21 @@ rules:
  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
+ - PROCESS-NAME,aria2c,🎯 全球直连
+ - PROCESS-NAME,fdm,🎯 全球直连
+ - PROCESS-NAME,Folx,🎯 全球直连
+ - PROCESS-NAME,NetTransport,🎯 全球直连
+ - PROCESS-NAME,Thunder,🎯 全球直连
+ - PROCESS-NAME,Transmission,🎯 全球直连
+ - PROCESS-NAME,uTorrent,🎯 全球直连
+ - PROCESS-NAME,WebTorrent,🎯 全球直连
+ - PROCESS-NAME,WebTorrent Helper,🎯 全球直连
+ - PROCESS-NAME,DownloadService,🎯 全球直连
+ - PROCESS-NAME,Weiyun,🎯 全球直连
+ - DOMAIN-KEYWORD,aria2,🎯 全球直连
+ - DOMAIN-KEYWORD,xunlei,🎯 全球直连
+ - DOMAIN-KEYWORD,yunpan,🎯 全球直连
+ - DOMAIN-KEYWORD,Thunder,🎯 全球直连
+ - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
