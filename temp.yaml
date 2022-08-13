@@ -5,196 +5,300 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!1, server: 85.208.108.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 US美国丨感谢您的赞助!!!2, server: 150.230.23.0, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助!!!3, server: gzyd1.52147.top, port: 30180, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US美国丨感谢您的赞助!!!4, server: 154.214.4.155, port: 57952, type: vmess, uuid: c48e8e02-15c6-4061-c4cc-8cfe625572d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!5, server: 85.208.108.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!6, server: 85.208.108.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!7, server: 85.208.108.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!8, server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇸🇬 SG新加坡丨感谢您的赞助!!!9, server: bai-piao-wang-zhe12.98848.xyz, port: 36736, type: vmess, uuid: 50a9c98e-8c48-4680-feff-a7ea34705ae9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ytryr6, headers: {Host: bai-piao-wang-zhe12.98848.xyz}}, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!10, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!11, server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!12, server: 85.208.108.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!13, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!14, server: 85.208.108.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!15, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助!!!16, server: 103.56.60.185, port: 3381, type: trojan, password: ab29af390ff9f4a7, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!17, server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!18, server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!19, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!20, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!21, server: 85.208.108.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!22, server: 85.208.108.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!23, server: 85.208.108.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇨🇭 CH瑞士丨感谢您的赞助!!!24, server: 185.126.116.119, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!25, server: 85.208.108.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!26, server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇨🇭 CH瑞士丨感谢您的赞助!!!27, server: 185.126.116.119, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!28, server: 85.208.108.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇷🇺 RU俄罗斯联邦丨感谢您的赞助!!!29, server: 195.133.197.254, port: 443, type: vmess, uuid: ba4b9133-5a39-4015-808b-bcfaaa8962a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!30, server: 85.208.108.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇨🇳 CN中国丨感谢您的赞助!!!31, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 🇰🇷 KR韩国丨感谢您的赞助!!!32, server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!33, server: 85.208.108.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!34, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇭 CH瑞士丨感谢您的赞助!!!35, server: 185.126.116.119, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 🇯🇵 JP日本丨感谢您的赞助!!!36, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 98672ce2-03ff-4309-94b6-65a6c04d8f25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sh.moonfree.top}}, udp: true}
-  - {name: 🇸🇬 SG新加坡丨感谢您的赞助!!!37, server: 217.197.160.117, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇫🇷 FR法国丨感谢您的赞助!!!38, server: 51.38.118.42, port: 819, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助!!!39, server: uk1.lolvps.xyz, port: 60021, type: vmess, uuid: 9b30eff8-927b-4a57-b172-589cbb095ae4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Z5XJBUDL, headers: {Host: uk1.lolvps.xyz}}, udp: true}
-  - {name: 🇸🇬 SG新加坡丨感谢您的赞助!!!40, server: 18.141.146.58, port: 43950, type: vmess, uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！, server: 213.183.59.211, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 2, server: 213.183.59.206, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 3, server: 213.183.59.206, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 DE德国丨感谢您的赞助！, server: 178.18.246.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9LKGJ5IhLOg2, udp: true}
+  - {name: 🇨🇳 CN中国丨感谢您的赞助！, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 4, server: 213.183.59.185, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 🇯🇵 JP日本丨感谢您的赞助！, server: 85.208.108.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 5, server: 213.183.59.211, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 6, server: 213.183.59.211, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 7, server: 213.183.59.206, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 8, server: 213.183.59.211, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 2, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 3, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 9, server: 213.183.59.211, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 10, server: 213.183.59.206, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 11, server: 213.183.59.211, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 12, server: 213.183.59.206, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！, server: 185.167.116.24, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 13, server: 213.183.59.206, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 14, server: 213.183.59.190, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 15, server: 213.183.59.206, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 🇩🇪 DE德国丨感谢您的赞助！ 2, server: 192.248.181.2, port: 443, type: vmess, uuid: 611bbdbb-1138-4797-8d9f-f92f595b7c7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 16, server: 213.183.59.191, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 17, server: 213.183.59.211, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 18, server: 213.183.59.206, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 19, server: 213.183.59.190, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 2, server: 185.167.116.38, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: 🇨🇭 CH瑞士丨感谢您的赞助！, server: 185.126.116.123, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 20, server: 213.183.59.206, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 4, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 21, server: 213.183.59.206, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 3, server: 185.167.116.253, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 4, server: 185.167.116.253, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 5, server: 54.36.174.181, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！, server: 213.183.53.179, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 22, server: 213.183.59.206, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 23, server: 213.183.59.211, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 24, server: 213.183.59.191, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 5, server: 185.167.116.253, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 25, server: 213.183.59.211, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 26, server: 213.183.59.211, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 6, server: 172.99.190.149, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！ 2, server: 213.183.53.221, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 27, server: 213.183.59.229, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 28, server: 213.183.59.218, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 29, server: 213.183.59.211, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 🇰🇷 KR韩国丨感谢您的赞助！, server: 146.56.167.249, port: 41954, type: vmess, uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 7, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 30, server: 213.183.59.211, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 8, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇭 CH瑞士丨感谢您的赞助！ 2, server: 185.126.116.123, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 31, server: 213.183.59.218, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 9, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇨🇭 CH瑞士丨感谢您的赞助！ 3, server: 185.126.116.123, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 6, server: 185.167.116.38, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 32, server: 213.183.59.206, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 33, server: 213.183.59.185, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 7, server: 185.167.116.24, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 🇨🇭 CH瑞士丨感谢您的赞助！ 4, server: 185.126.116.123, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: 🇳🇱 NL荷兰丨感谢您的赞助！ 34, server: 213.183.59.211, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 10, server: 172.99.190.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助！, server: 167.88.62.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇬🇧 GB英国丨感谢您的赞助！ 11, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 US美国丨感谢您的赞助！ 2, server: 38.86.135.27, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇦🇺 AU澳大利亚丨感谢您的赞助！ 8, server: 185.167.116.24, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
 proxy-groups:
-  - name: ✨ Thank U
+  - name: 🎇 Thank U
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 JP日本丨感谢您的赞助!!!1
-      - 🇺🇸 US美国丨感谢您的赞助!!!2
-      - 🇨🇳 CN中国丨感谢您的赞助!!!3
-      - 🇺🇸 US美国丨感谢您的赞助!!!4
-      - 🇯🇵 JP日本丨感谢您的赞助!!!5
-      - 🇯🇵 JP日本丨感谢您的赞助!!!6
-      - 🇯🇵 JP日本丨感谢您的赞助!!!7
-      - 🇯🇵 JP日本丨感谢您的赞助!!!8
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!9
-      - 🇯🇵 JP日本丨感谢您的赞助!!!10
-      - 🇯🇵 JP日本丨感谢您的赞助!!!11
-      - 🇯🇵 JP日本丨感谢您的赞助!!!12
-      - 🇯🇵 JP日本丨感谢您的赞助!!!13
-      - 🇯🇵 JP日本丨感谢您的赞助!!!14
-      - 🇯🇵 JP日本丨感谢您的赞助!!!15
-      - 🇨🇳 CN中国丨感谢您的赞助!!!16
-      - 🇯🇵 JP日本丨感谢您的赞助!!!17
-      - 🇯🇵 JP日本丨感谢您的赞助!!!18
-      - 🇯🇵 JP日本丨感谢您的赞助!!!19
-      - 🇯🇵 JP日本丨感谢您的赞助!!!20
-      - 🇯🇵 JP日本丨感谢您的赞助!!!21
-      - 🇯🇵 JP日本丨感谢您的赞助!!!22
-      - 🇯🇵 JP日本丨感谢您的赞助!!!23
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!24
-      - 🇯🇵 JP日本丨感谢您的赞助!!!25
-      - 🇯🇵 JP日本丨感谢您的赞助!!!26
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!27
-      - 🇯🇵 JP日本丨感谢您的赞助!!!28
-      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助!!!29
-      - 🇯🇵 JP日本丨感谢您的赞助!!!30
-      - 🇨🇳 CN中国丨感谢您的赞助!!!31
-      - 🇰🇷 KR韩国丨感谢您的赞助!!!32
-      - 🇯🇵 JP日本丨感谢您的赞助!!!33
-      - 🇯🇵 JP日本丨感谢您的赞助!!!34
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!35
-      - 🇯🇵 JP日本丨感谢您的赞助!!!36
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!37
-      - 🇫🇷 FR法国丨感谢您的赞助!!!38
-      - 🇦🇺 AU澳大利亚丨感谢您的赞助!!!39
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!40
+      - 🇳🇱 NL荷兰丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 3
+      - 🇬🇧 GB英国丨感谢您的赞助！
+      - 🇩🇪 DE德国丨感谢您的赞助！
+      - 🇨🇳 CN中国丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 4
+      - 🇯🇵 JP日本丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 5
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 6
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 7
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 8
+      - 🇬🇧 GB英国丨感谢您的赞助！ 2
+      - 🇬🇧 GB英国丨感谢您的赞助！ 3
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 9
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 10
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 11
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 12
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 13
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 14
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 15
+      - 🇩🇪 DE德国丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 16
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 17
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 18
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 19
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 2
+      - 🇨🇭 CH瑞士丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 20
+      - 🇬🇧 GB英国丨感谢您的赞助！ 4
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 21
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 3
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 4
+      - 🇬🇧 GB英国丨感谢您的赞助！ 5
+      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 22
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 23
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 24
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 5
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 25
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 26
+      - 🇬🇧 GB英国丨感谢您的赞助！ 6
+      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 27
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 28
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 29
+      - 🇰🇷 KR韩国丨感谢您的赞助！
+      - 🇬🇧 GB英国丨感谢您的赞助！ 7
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 30
+      - 🇬🇧 GB英国丨感谢您的赞助！ 8
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 31
+      - 🇬🇧 GB英国丨感谢您的赞助！ 9
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 3
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 6
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 32
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 33
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 7
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 4
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 34
+      - 🇬🇧 GB英国丨感谢您的赞助！ 10
+      - 🇺🇸 US美国丨感谢您的赞助！
+      - 🇬🇧 GB英国丨感谢您的赞助！ 11
+      - 🇺🇸 US美国丨感谢您的赞助！ 2
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 200
     proxies:
-      - 🇯🇵 JP日本丨感谢您的赞助!!!1
-      - 🇺🇸 US美国丨感谢您的赞助!!!2
-      - 🇨🇳 CN中国丨感谢您的赞助!!!3
-      - 🇺🇸 US美国丨感谢您的赞助!!!4
-      - 🇯🇵 JP日本丨感谢您的赞助!!!5
-      - 🇯🇵 JP日本丨感谢您的赞助!!!6
-      - 🇯🇵 JP日本丨感谢您的赞助!!!7
-      - 🇯🇵 JP日本丨感谢您的赞助!!!8
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!9
-      - 🇯🇵 JP日本丨感谢您的赞助!!!10
-      - 🇯🇵 JP日本丨感谢您的赞助!!!11
-      - 🇯🇵 JP日本丨感谢您的赞助!!!12
-      - 🇯🇵 JP日本丨感谢您的赞助!!!13
-      - 🇯🇵 JP日本丨感谢您的赞助!!!14
-      - 🇯🇵 JP日本丨感谢您的赞助!!!15
-      - 🇨🇳 CN中国丨感谢您的赞助!!!16
-      - 🇯🇵 JP日本丨感谢您的赞助!!!17
-      - 🇯🇵 JP日本丨感谢您的赞助!!!18
-      - 🇯🇵 JP日本丨感谢您的赞助!!!19
-      - 🇯🇵 JP日本丨感谢您的赞助!!!20
-      - 🇯🇵 JP日本丨感谢您的赞助!!!21
-      - 🇯🇵 JP日本丨感谢您的赞助!!!22
-      - 🇯🇵 JP日本丨感谢您的赞助!!!23
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!24
-      - 🇯🇵 JP日本丨感谢您的赞助!!!25
-      - 🇯🇵 JP日本丨感谢您的赞助!!!26
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!27
-      - 🇯🇵 JP日本丨感谢您的赞助!!!28
-      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助!!!29
-      - 🇯🇵 JP日本丨感谢您的赞助!!!30
-      - 🇨🇳 CN中国丨感谢您的赞助!!!31
-      - 🇰🇷 KR韩国丨感谢您的赞助!!!32
-      - 🇯🇵 JP日本丨感谢您的赞助!!!33
-      - 🇯🇵 JP日本丨感谢您的赞助!!!34
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!35
-      - 🇯🇵 JP日本丨感谢您的赞助!!!36
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!37
-      - 🇫🇷 FR法国丨感谢您的赞助!!!38
-      - 🇦🇺 AU澳大利亚丨感谢您的赞助!!!39
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!40
+      - 🇳🇱 NL荷兰丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 3
+      - 🇬🇧 GB英国丨感谢您的赞助！
+      - 🇩🇪 DE德国丨感谢您的赞助！
+      - 🇨🇳 CN中国丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 4
+      - 🇯🇵 JP日本丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 5
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 6
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 7
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 8
+      - 🇬🇧 GB英国丨感谢您的赞助！ 2
+      - 🇬🇧 GB英国丨感谢您的赞助！ 3
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 9
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 10
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 11
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 12
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 13
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 14
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 15
+      - 🇩🇪 DE德国丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 16
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 17
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 18
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 19
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 2
+      - 🇨🇭 CH瑞士丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 20
+      - 🇬🇧 GB英国丨感谢您的赞助！ 4
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 21
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 3
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 4
+      - 🇬🇧 GB英国丨感谢您的赞助！ 5
+      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 22
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 23
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 24
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 5
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 25
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 26
+      - 🇬🇧 GB英国丨感谢您的赞助！ 6
+      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 27
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 28
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 29
+      - 🇰🇷 KR韩国丨感谢您的赞助！
+      - 🇬🇧 GB英国丨感谢您的赞助！ 7
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 30
+      - 🇬🇧 GB英国丨感谢您的赞助！ 8
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 31
+      - 🇬🇧 GB英国丨感谢您的赞助！ 9
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 3
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 6
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 32
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 33
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 7
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 4
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 34
+      - 🇬🇧 GB英国丨感谢您的赞助！ 10
+      - 🇺🇸 US美国丨感谢您的赞助！
+      - 🇬🇧 GB英国丨感谢您的赞助！ 11
+      - 🇺🇸 US美国丨感谢您的赞助！ 2
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 8
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - ✨ Thank U
+      - 🎇 Thank U
       - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: 🎭 此配置仅可运用于学习
     type: select
     proxies:
-      - ✨ Thank U
+      - 🎇 Thank U
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 JP日本丨感谢您的赞助!!!1
-      - 🇺🇸 US美国丨感谢您的赞助!!!2
-      - 🇨🇳 CN中国丨感谢您的赞助!!!3
-      - 🇺🇸 US美国丨感谢您的赞助!!!4
-      - 🇯🇵 JP日本丨感谢您的赞助!!!5
-      - 🇯🇵 JP日本丨感谢您的赞助!!!6
-      - 🇯🇵 JP日本丨感谢您的赞助!!!7
-      - 🇯🇵 JP日本丨感谢您的赞助!!!8
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!9
-      - 🇯🇵 JP日本丨感谢您的赞助!!!10
-      - 🇯🇵 JP日本丨感谢您的赞助!!!11
-      - 🇯🇵 JP日本丨感谢您的赞助!!!12
-      - 🇯🇵 JP日本丨感谢您的赞助!!!13
-      - 🇯🇵 JP日本丨感谢您的赞助!!!14
-      - 🇯🇵 JP日本丨感谢您的赞助!!!15
-      - 🇨🇳 CN中国丨感谢您的赞助!!!16
-      - 🇯🇵 JP日本丨感谢您的赞助!!!17
-      - 🇯🇵 JP日本丨感谢您的赞助!!!18
-      - 🇯🇵 JP日本丨感谢您的赞助!!!19
-      - 🇯🇵 JP日本丨感谢您的赞助!!!20
-      - 🇯🇵 JP日本丨感谢您的赞助!!!21
-      - 🇯🇵 JP日本丨感谢您的赞助!!!22
-      - 🇯🇵 JP日本丨感谢您的赞助!!!23
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!24
-      - 🇯🇵 JP日本丨感谢您的赞助!!!25
-      - 🇯🇵 JP日本丨感谢您的赞助!!!26
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!27
-      - 🇯🇵 JP日本丨感谢您的赞助!!!28
-      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助!!!29
-      - 🇯🇵 JP日本丨感谢您的赞助!!!30
-      - 🇨🇳 CN中国丨感谢您的赞助!!!31
-      - 🇰🇷 KR韩国丨感谢您的赞助!!!32
-      - 🇯🇵 JP日本丨感谢您的赞助!!!33
-      - 🇯🇵 JP日本丨感谢您的赞助!!!34
-      - 🇨🇭 CH瑞士丨感谢您的赞助!!!35
-      - 🇯🇵 JP日本丨感谢您的赞助!!!36
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!37
-      - 🇫🇷 FR法国丨感谢您的赞助!!!38
-      - 🇦🇺 AU澳大利亚丨感谢您的赞助!!!39
-      - 🇸🇬 SG新加坡丨感谢您的赞助!!!40
+      - 🇳🇱 NL荷兰丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 3
+      - 🇬🇧 GB英国丨感谢您的赞助！
+      - 🇩🇪 DE德国丨感谢您的赞助！
+      - 🇨🇳 CN中国丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 4
+      - 🇯🇵 JP日本丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 5
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 6
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 7
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 8
+      - 🇬🇧 GB英国丨感谢您的赞助！ 2
+      - 🇬🇧 GB英国丨感谢您的赞助！ 3
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 9
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 10
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 11
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 12
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 13
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 14
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 15
+      - 🇩🇪 DE德国丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 16
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 17
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 18
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 19
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 2
+      - 🇨🇭 CH瑞士丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 20
+      - 🇬🇧 GB英国丨感谢您的赞助！ 4
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 21
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 3
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 4
+      - 🇬🇧 GB英国丨感谢您的赞助！ 5
+      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 22
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 23
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 24
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 5
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 25
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 26
+      - 🇬🇧 GB英国丨感谢您的赞助！ 6
+      - 🇷🇺 RU俄罗斯联邦丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 27
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 28
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 29
+      - 🇰🇷 KR韩国丨感谢您的赞助！
+      - 🇬🇧 GB英国丨感谢您的赞助！ 7
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 30
+      - 🇬🇧 GB英国丨感谢您的赞助！ 8
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 2
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 31
+      - 🇬🇧 GB英国丨感谢您的赞助！ 9
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 3
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 6
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 32
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 33
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 7
+      - 🇨🇭 CH瑞士丨感谢您的赞助！ 4
+      - 🇳🇱 NL荷兰丨感谢您的赞助！ 34
+      - 🇬🇧 GB英国丨感谢您的赞助！ 10
+      - 🇺🇸 US美国丨感谢您的赞助！
+      - 🇬🇧 GB英国丨感谢您的赞助！ 11
+      - 🇺🇸 US美国丨感谢您的赞助！ 2
+      - 🇦🇺 AU澳大利亚丨感谢您的赞助！ 8
 rules:
+ - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
  - DOMAIN-SUFFIX,lan,🎯 全球直连
@@ -224,25 +328,59 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,picanalysis-auth.vivo.com.cn,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,errlog.umeng.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,265.com,🎯 全球直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+ - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1864,765 +2002,712 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,up.qingdaonews.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,265.com,🎯 全球直连
- - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
- - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
- - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
- - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
- - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
- - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
- - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
- - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
- - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
- - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
- - DOMAIN,csgo.wmsj.cn,🎯 全球直连
- - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
- - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
- - DOMAIN,dota2.wmsj.cn,🎯 全球直连
- - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
- - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
- - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
- - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
- - DOMAIN,wmsjsteam.com,🎯 全球直连
- - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,t.me,✨ Thank U
- - DOMAIN-SUFFIX,tdesktop.com,✨ Thank U
- - DOMAIN-SUFFIX,telegra.ph,✨ Thank U
- - DOMAIN-SUFFIX,telegram.me,✨ Thank U
- - DOMAIN-SUFFIX,telegram.org,✨ Thank U
- - DOMAIN-SUFFIX,telesco.pe,✨ Thank U
- - IP-CIDR,91.108.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,109.239.140.0/24,✨ Thank U,no-resolve
- - IP-CIDR,149.154.160.0/20,✨ Thank U,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,✨ Thank U,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,✨ Thank U,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,edgedatg.com,✨ Thank U
- - DOMAIN-SUFFIX,go.com,✨ Thank U
- - DOMAIN-KEYWORD,abematv.akamaized.net,✨ Thank U
- - DOMAIN-SUFFIX,abema.io,✨ Thank U
- - DOMAIN-SUFFIX,abema.tv,✨ Thank U
- - DOMAIN-SUFFIX,ameba.jp,✨ Thank U
- - DOMAIN-SUFFIX,hayabusa.io,✨ Thank U
- - DOMAIN-SUFFIX,c4assets.com,✨ Thank U
- - DOMAIN-SUFFIX,channel4.com,✨ Thank U
- - DOMAIN-KEYWORD,avoddashs,✨ Thank U
- - DOMAIN,atv-ps.amazon.com,✨ Thank U
- - DOMAIN,avodmp4s3ww-a.akamaihd.net,✨ Thank U
- - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,✨ Thank U
- - DOMAIN,d1xfray82862hr.cloudfront.net,✨ Thank U
- - DOMAIN,d22qjgkvxw22r6.cloudfront.net,✨ Thank U
- - DOMAIN,d25xi40x97liuc.cloudfront.net,✨ Thank U
- - DOMAIN,d27xxe7juh1us6.cloudfront.net,✨ Thank U
- - DOMAIN,d3196yreox78o9.cloudfront.net,✨ Thank U
- - DOMAIN,dmqdd6hw24ucf.cloudfront.net,✨ Thank U
- - DOMAIN,ktpx.amazon.com,✨ Thank U
- - DOMAIN-SUFFIX,aboutamazon.com,✨ Thank U
- - DOMAIN-SUFFIX,aiv-cdn.net,✨ Thank U
- - DOMAIN-SUFFIX,aiv-delivery.net,✨ Thank U
- - DOMAIN-SUFFIX,amazon.jobs,✨ Thank U
- - DOMAIN-SUFFIX,amazonvideo.com,✨ Thank U
- - DOMAIN-SUFFIX,media-amazon.com,✨ Thank U
- - DOMAIN-SUFFIX,pv-cdn.net,✨ Thank U
- - DOMAIN,gspe1-ssl.ls.apple.com,✨ Thank U
- - DOMAIN,np-edge.itunes.apple.com,✨ Thank U
- - DOMAIN,play-edge.itunes.apple.com,✨ Thank U
- - DOMAIN-SUFFIX,tv.apple.com,✨ Thank U
- - DOMAIN-KEYWORD,bbcfmt,✨ Thank U
- - DOMAIN-KEYWORD,uk-live,✨ Thank U
- - DOMAIN,aod-dash-uk-live.akamaized.net,✨ Thank U
- - DOMAIN,aod-hls-uk-live.akamaized.net,✨ Thank U
- - DOMAIN,vod-dash-uk-live.akamaized.net,✨ Thank U
- - DOMAIN,vod-thumb-uk-live.akamaized.net,✨ Thank U
- - DOMAIN-SUFFIX,bbc.co,✨ Thank U
- - DOMAIN-SUFFIX,bbc.co.uk,✨ Thank U
- - DOMAIN-SUFFIX,bbc.com,✨ Thank U
- - DOMAIN-SUFFIX,bbc.net.uk,✨ Thank U
- - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,✨ Thank U
- - DOMAIN-SUFFIX,bbci.co,✨ Thank U
- - DOMAIN-SUFFIX,bbci.co.uk,✨ Thank U
- - DOMAIN-SUFFIX,bidi.net.uk,✨ Thank U
- - DOMAIN,bahamut.akamaized.net,✨ Thank U
- - DOMAIN,gamer-cds.cdn.hinet.net,✨ Thank U
- - DOMAIN,gamer2-cds.cdn.hinet.net,✨ Thank U
- - DOMAIN-SUFFIX,bahamut.com.tw,✨ Thank U
- - DOMAIN-SUFFIX,gamer.com.tw,✨ Thank U
- - DOMAIN-KEYWORD,voddazn,✨ Thank U
- - DOMAIN,d151l6v8er5bdm.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,dazn-api.com,✨ Thank U
- - DOMAIN-SUFFIX,dazn.com,✨ Thank U
- - DOMAIN-SUFFIX,dazndn.com,✨ Thank U
- - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,✨ Thank U
- - DOMAIN-SUFFIX,indazn.com,✨ Thank U
- - DOMAIN-SUFFIX,indaznlab.com,✨ Thank U
- - DOMAIN-SUFFIX,sentry.io,✨ Thank U
- - DOMAIN-SUFFIX,deezer.com,✨ Thank U
- - DOMAIN-SUFFIX,dzcdn.net,✨ Thank U
- - DOMAIN-SUFFIX,disco-api.com,✨ Thank U
- - DOMAIN-SUFFIX,discovery.com,✨ Thank U
- - DOMAIN-SUFFIX,uplynk.com,✨ Thank U
- - DOMAIN,cdn.registerdisney.go.com,✨ Thank U
- - DOMAIN-SUFFIX,adobedtm.com,✨ Thank U
- - DOMAIN-SUFFIX,bam.nr-data.net,✨ Thank U
- - DOMAIN-SUFFIX,bamgrid.com,✨ Thank U
- - DOMAIN-SUFFIX,braze.com,✨ Thank U
- - DOMAIN-SUFFIX,cdn.optimizely.com,✨ Thank U
- - DOMAIN-SUFFIX,cdn.registerdisney.go.com,✨ Thank U
- - DOMAIN-SUFFIX,cws.conviva.com,✨ Thank U
- - DOMAIN-SUFFIX,d9.flashtalking.com,✨ Thank U
- - DOMAIN-SUFFIX,disney-plus.net,✨ Thank U
- - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,✨ Thank U
- - DOMAIN-SUFFIX,disney.demdex.net,✨ Thank U
- - DOMAIN-SUFFIX,disney.my.sentry.io,✨ Thank U
- - DOMAIN-SUFFIX,disneyplus.bn5x.net,✨ Thank U
- - DOMAIN-SUFFIX,disneyplus.com,✨ Thank U
- - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,✨ Thank U
- - DOMAIN-SUFFIX,disneystreaming.com,✨ Thank U
- - DOMAIN-SUFFIX,dssott.com,✨ Thank U
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,✨ Thank U
- - DOMAIN-SUFFIX,js-agent.newrelic.com,✨ Thank U
- - DOMAIN,bcbolt446c5271-a.akamaihd.net,✨ Thank U
- - DOMAIN,content.jwplatform.com,✨ Thank U
- - DOMAIN,edge.api.brightcove.com,✨ Thank U
- - DOMAIN,videos-f.jwpsrv.com,✨ Thank U
- - DOMAIN-SUFFIX,encoretvb.com,✨ Thank U
- - DOMAIN-SUFFIX,fox.com,✨ Thank U
- - DOMAIN-SUFFIX,foxdcg.com,✨ Thank U
- - DOMAIN-SUFFIX,uplynk.com,✨ Thank U
- - DOMAIN-SUFFIX,hbo.com,✨ Thank U
- - DOMAIN-SUFFIX,hbogo.com,✨ Thank U
- - DOMAIN-SUFFIX,hbomax.com,✨ Thank U
- - DOMAIN-SUFFIX,hbomaxcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,hbonow.com,✨ Thank U
- - DOMAIN-KEYWORD,.hbogoasia.,✨ Thank U
- - DOMAIN-KEYWORD,hbogoasia,✨ Thank U
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,✨ Thank U
- - DOMAIN,bcbolthboa-a.akamaihd.net,✨ Thank U
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,✨ Thank U
- - DOMAIN,dai3fd1oh325y.cloudfront.net,✨ Thank U
- - DOMAIN,hboasia1-i.akamaihd.net,✨ Thank U
- - DOMAIN,hboasia2-i.akamaihd.net,✨ Thank U
- - DOMAIN,hboasia3-i.akamaihd.net,✨ Thank U
- - DOMAIN,hboasia4-i.akamaihd.net,✨ Thank U
- - DOMAIN,hboasia5-i.akamaihd.net,✨ Thank U
- - DOMAIN,hboasialive.akamaized.net,✨ Thank U
- - DOMAIN,hbogoprod-vod.akamaized.net,✨ Thank U
- - DOMAIN,hbolb.onwardsmg.com,✨ Thank U
- - DOMAIN,hbounify-prod.evergent.com,✨ Thank U
- - DOMAIN,players.brightcove.net,✨ Thank U
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,✨ Thank U
- - DOMAIN-SUFFIX,hboasia.com,✨ Thank U
- - DOMAIN-SUFFIX,hbogoasia.com,✨ Thank U
- - DOMAIN-SUFFIX,hbogoasia.hk,✨ Thank U
- - DOMAIN-SUFFIX,5itv.tv,✨ Thank U
- - DOMAIN-SUFFIX,ocnttv.com,✨ Thank U
- - DOMAIN-SUFFIX,cws-hulu.conviva.com,✨ Thank U
- - DOMAIN-SUFFIX,hulu.com,✨ Thank U
- - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,✨ Thank U
- - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,✨ Thank U
- - DOMAIN-SUFFIX,huluad.com,✨ Thank U
- - DOMAIN-SUFFIX,huluim.com,✨ Thank U
- - DOMAIN-SUFFIX,hulustream.com,✨ Thank U
- - DOMAIN-SUFFIX,happyon.jp,✨ Thank U
- - DOMAIN-SUFFIX,hjholdings.jp,✨ Thank U
- - DOMAIN-SUFFIX,hulu.jp,✨ Thank U
- - DOMAIN-SUFFIX,prod.hjholdings.tv,✨ Thank U
- - DOMAIN-SUFFIX,streaks.jp,✨ Thank U
- - DOMAIN-SUFFIX,yb.uncn.jp,✨ Thank U
- - DOMAIN,itvpnpmobile-a.akamaihd.net,✨ Thank U
- - DOMAIN-SUFFIX,itv.com,✨ Thank U
- - DOMAIN-SUFFIX,itvstatic.com,✨ Thank U
- - DOMAIN-KEYWORD,jooxweb-api,✨ Thank U
- - DOMAIN-SUFFIX,joox.com,✨ Thank U
- - DOMAIN-KEYWORD,japonx,✨ Thank U
- - DOMAIN-KEYWORD,japronx,✨ Thank U
- - DOMAIN-SUFFIX,japonx.com,✨ Thank U
- - DOMAIN-SUFFIX,japonx.net,✨ Thank U
- - DOMAIN-SUFFIX,japonx.tv,✨ Thank U
- - DOMAIN-SUFFIX,japonx.vip,✨ Thank U
- - DOMAIN-SUFFIX,japronx.com,✨ Thank U
- - DOMAIN-SUFFIX,japronx.net,✨ Thank U
- - DOMAIN-SUFFIX,japronx.tv,✨ Thank U
- - DOMAIN-SUFFIX,japronx.vip,✨ Thank U
- - DOMAIN-SUFFIX,kfs.io,✨ Thank U
- - DOMAIN-SUFFIX,kkbox.com,✨ Thank U
- - DOMAIN-SUFFIX,kkbox.com.tw,✨ Thank U
- - DOMAIN,kktv-theater.kk.stream,✨ Thank U
- - DOMAIN,theater-kktv.cdn.hinet.net,✨ Thank U
- - DOMAIN-SUFFIX,kktv.com.tw,✨ Thank U
- - DOMAIN-SUFFIX,kktv.me,✨ Thank U
- - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,✨ Thank U
- - DOMAIN-SUFFIX,litv.tv,✨ Thank U
- - DOMAIN,d3c7rimkq79yfu.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,linetv.tw,✨ Thank U
- - DOMAIN-SUFFIX,profile.line-scdn.net,✨ Thank U
- - DOMAIN,d349g9zuie06uo.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,channel5.com,✨ Thank U
- - DOMAIN-SUFFIX,my5.tv,✨ Thank U
- - DOMAIN-KEYWORD,nowtv100,✨ Thank U
- - DOMAIN-KEYWORD,rthklive,✨ Thank U
- - DOMAIN,mytvsuperlimited.hb.omtrdc.net,✨ Thank U
- - DOMAIN,mytvsuperlimited.sc.omtrdc.net,✨ Thank U
- - DOMAIN-SUFFIX,mytvsuper.com,✨ Thank U
- - DOMAIN-SUFFIX,tvb.com,✨ Thank U
- - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,✨ Thank U
- - DOMAIN-KEYWORD,dualstack.apiproxy-,✨ Thank U
- - DOMAIN-KEYWORD,netflixdnstest,✨ Thank U
- - DOMAIN,netflix.com.edgesuite.net,✨ Thank U
- - DOMAIN-SUFFIX,fast.com,✨ Thank U
- - DOMAIN-SUFFIX,netflix.com,✨ Thank U
- - DOMAIN-SUFFIX,netflix.net,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest0.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest1.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest2.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest3.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest4.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest5.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest6.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest7.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest8.com,✨ Thank U
- - DOMAIN-SUFFIX,netflixdnstest9.com,✨ Thank U
- - DOMAIN-SUFFIX,nflxext.com,✨ Thank U
- - DOMAIN-SUFFIX,nflximg.com,✨ Thank U
- - DOMAIN-SUFFIX,nflximg.net,✨ Thank U
- - DOMAIN-SUFFIX,nflxso.net,✨ Thank U
- - DOMAIN-SUFFIX,nflxvideo.net,✨ Thank U
- - IP-CIDR,8.41.4.0/24,✨ Thank U,no-resolve
- - IP-CIDR,23.246.0.0/18,✨ Thank U,no-resolve
- - IP-CIDR,37.77.184.0/21,✨ Thank U,no-resolve
- - IP-CIDR,38.72.126.0/24,✨ Thank U,no-resolve
- - IP-CIDR,45.57.0.0/17,✨ Thank U,no-resolve
- - IP-CIDR,64.120.128.0/17,✨ Thank U,no-resolve
- - IP-CIDR,66.197.128.0/17,✨ Thank U,no-resolve
- - IP-CIDR,69.53.224.0/19,✨ Thank U,no-resolve
- - IP-CIDR,103.87.204.0/22,✨ Thank U,no-resolve
- - IP-CIDR,108.175.32.0/20,✨ Thank U,no-resolve
- - IP-CIDR,185.2.220.0/22,✨ Thank U,no-resolve
- - IP-CIDR,185.9.188.0/22,✨ Thank U,no-resolve
- - IP-CIDR,192.173.64.0/18,✨ Thank U,no-resolve
- - IP-CIDR,198.38.96.0/19,✨ Thank U,no-resolve
- - IP-CIDR,198.45.48.0/20,✨ Thank U,no-resolve
- - IP-CIDR,207.45.72.0/22,✨ Thank U,no-resolve
- - IP-CIDR,208.75.76.0/22,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,dmc.nico,✨ Thank U
- - DOMAIN-SUFFIX,nicovideo.jp,✨ Thank U
- - DOMAIN-SUFFIX,nimg.jp,✨ Thank U
- - DOMAIN-SUFFIX,pbs.org,✨ Thank U
- - DOMAIN-SUFFIX,pandora.com,✨ Thank U
- - DOMAIN-SUFFIX,phncdn.com,✨ Thank U
- - DOMAIN-SUFFIX,phprcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,pornhub.com,✨ Thank U
- - DOMAIN-SUFFIX,pornhubpremium.com,✨ Thank U
- - DOMAIN-SUFFIX,qobuz.com,✨ Thank U
- - DOMAIN-SUFFIX,p-cdn.us,✨ Thank U
- - DOMAIN-SUFFIX,sndcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,soundcloud.com,✨ Thank U
- - DOMAIN-KEYWORD,-spotify-com,✨ Thank U
- - DOMAIN-KEYWORD,spotify.com,✨ Thank U
- - DOMAIN-SUFFIX,pscdn.co,✨ Thank U
- - DOMAIN-SUFFIX,scdn.co,✨ Thank U
- - DOMAIN-SUFFIX,spoti.fi,✨ Thank U
- - DOMAIN-SUFFIX,spotify.com,✨ Thank U
- - DOMAIN-SUFFIX,spotifycdn.com,✨ Thank U
- - DOMAIN-SUFFIX,spotifycdn.net,✨ Thank U
- - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,✨ Thank U
- - DOMAIN-SUFFIX,tidal.com,✨ Thank U
- - DOMAIN-SUFFIX,tidalhifi.com,✨ Thank U
- - DOMAIN,hamifans.emome.net,✨ Thank U
- - DOMAIN-SUFFIX,skyking.com.tw,✨ Thank U
- - DOMAIN-KEYWORD,tiktokcdn-,✨ Thank U
- - DOMAIN-SUFFIX,byteoversea.com,✨ Thank U
- - DOMAIN-SUFFIX,ibytedtos.com,✨ Thank U
- - DOMAIN-SUFFIX,ipstatp.com,✨ Thank U
- - DOMAIN-SUFFIX,muscdn.com,✨ Thank U
- - DOMAIN-SUFFIX,musical.ly,✨ Thank U
- - DOMAIN-SUFFIX,tik-tokapi.com,✨ Thank U
- - DOMAIN-SUFFIX,tiktok.com,✨ Thank U
- - DOMAIN-SUFFIX,tiktokcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,tiktokv.com,✨ Thank U
- - DOMAIN-KEYWORD,ttvnw,✨ Thank U
- - DOMAIN-SUFFIX,ext-twitch.tv,✨ Thank U
- - DOMAIN-SUFFIX,jtvnw.net,✨ Thank U
- - DOMAIN-SUFFIX,ttvnw.net,✨ Thank U
- - DOMAIN-SUFFIX,twitch-ext.rootonline.de,✨ Thank U
- - DOMAIN-SUFFIX,twitch.tv,✨ Thank U
- - DOMAIN-SUFFIX,twitchcdn.net,✨ Thank U
- - DOMAIN,api.viu.now.com,✨ Thank U
- - DOMAIN,d1k2us671qcoau.cloudfront.net,✨ Thank U
- - DOMAIN,d2anahhhmp1ffz.cloudfront.net,✨ Thank U
- - DOMAIN,dfp6rglgjqszk.cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,bootstrapcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,✨ Thank U
- - DOMAIN-SUFFIX,firebaseio.com,✨ Thank U
- - DOMAIN-SUFFIX,jwpcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,jwplayer.com,✨ Thank U
- - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,✨ Thank U
- - DOMAIN-SUFFIX,nowe.com,✨ Thank U
- - DOMAIN-SUFFIX,viu.com,✨ Thank U
- - DOMAIN-SUFFIX,viu.now.com,✨ Thank U
- - DOMAIN-SUFFIX,viu.tv,✨ Thank U
- - DOMAIN-KEYWORD,youtube,✨ Thank U
- - DOMAIN,youtubei.googleapis.com,✨ Thank U
- - DOMAIN,yt3.ggpht.com,✨ Thank U
- - DOMAIN-SUFFIX,googlevideo.com,✨ Thank U
- - DOMAIN-SUFFIX,gvt2.com,✨ Thank U
- - DOMAIN-SUFFIX,withyoutube.com,✨ Thank U
- - DOMAIN-SUFFIX,youtu.be,✨ Thank U
- - DOMAIN-SUFFIX,youtube-nocookie.com,✨ Thank U
- - DOMAIN-SUFFIX,youtube.com,✨ Thank U
- - DOMAIN-SUFFIX,youtubeeducation.com,✨ Thank U
- - DOMAIN-SUFFIX,youtubegaming.com,✨ Thank U
- - DOMAIN-SUFFIX,youtubekids.com,✨ Thank U
- - DOMAIN-SUFFIX,yt.be,✨ Thank U
- - DOMAIN-SUFFIX,ytimg.com,✨ Thank U
- - DOMAIN,music.youtube.com,✨ Thank U
- - DOMAIN-SUFFIX,1password.com,✨ Thank U
- - DOMAIN-SUFFIX,adguard.org,✨ Thank U
- - DOMAIN-SUFFIX,bit.no.com,✨ Thank U
- - DOMAIN-SUFFIX,btlibrary.me,✨ Thank U
- - DOMAIN-SUFFIX,cccat.io,✨ Thank U
- - DOMAIN-SUFFIX,cloudcone.com,✨ Thank U
- - DOMAIN-SUFFIX,dubox.com,✨ Thank U
- - DOMAIN-SUFFIX,gameloft.com,✨ Thank U
- - DOMAIN-SUFFIX,garena.com,✨ Thank U
- - DOMAIN-SUFFIX,hoyolab.com,✨ Thank U
- - DOMAIN-SUFFIX,inoreader.com,✨ Thank U
- - DOMAIN-SUFFIX,ip138.com,✨ Thank U
- - DOMAIN-SUFFIX,linkedin.com,✨ Thank U
- - DOMAIN-SUFFIX,myteamspeak.com,✨ Thank U
- - DOMAIN-SUFFIX,notion.so,✨ Thank U
- - DOMAIN-SUFFIX,ping.pe,✨ Thank U
- - DOMAIN-SUFFIX,reddit.com,✨ Thank U
- - DOMAIN-SUFFIX,teddysun.com,✨ Thank U
- - DOMAIN-SUFFIX,tumbex.com,✨ Thank U
- - DOMAIN-SUFFIX,twdvd.com,✨ Thank U
- - DOMAIN-SUFFIX,unsplash.com,✨ Thank U
- - DOMAIN-SUFFIX,eu,✨ Thank U
- - DOMAIN-SUFFIX,hk,✨ Thank U
- - DOMAIN-SUFFIX,jp,✨ Thank U
- - DOMAIN-SUFFIX,kr,✨ Thank U
- - DOMAIN-SUFFIX,sg,✨ Thank U
- - DOMAIN-SUFFIX,tw,✨ Thank U
- - DOMAIN-SUFFIX,uk,✨ Thank U
- - DOMAIN-SUFFIX,us,✨ Thank U
- - DOMAIN-KEYWORD,1e100,✨ Thank U
- - DOMAIN-KEYWORD,abema,✨ Thank U
- - DOMAIN-KEYWORD,appledaily,✨ Thank U
- - DOMAIN-KEYWORD,avtb,✨ Thank U
- - DOMAIN-KEYWORD,beetalk,✨ Thank U
- - DOMAIN-KEYWORD,blogspot,✨ Thank U
- - DOMAIN-KEYWORD,dropbox,✨ Thank U
- - DOMAIN-KEYWORD,facebook,✨ Thank U
- - DOMAIN-KEYWORD,fbcdn,✨ Thank U
- - DOMAIN-KEYWORD,github,✨ Thank U
- - DOMAIN-KEYWORD,gmail,✨ Thank U
- - DOMAIN-KEYWORD,google,✨ Thank U
- - DOMAIN-KEYWORD,instagram,✨ Thank U
- - DOMAIN-KEYWORD,porn,✨ Thank U
- - DOMAIN-KEYWORD,sci-hub,✨ Thank U
- - DOMAIN-KEYWORD,spotify,✨ Thank U
- - DOMAIN-KEYWORD,telegram,✨ Thank U
- - DOMAIN-KEYWORD,twitter,✨ Thank U
- - DOMAIN-KEYWORD,whatsapp,✨ Thank U
- - DOMAIN-KEYWORD,youtube,✨ Thank U
- - DOMAIN-SUFFIX,4sqi.net,✨ Thank U
- - DOMAIN-SUFFIX,a248.e.akamai.net,✨ Thank U
- - DOMAIN-SUFFIX,adobedtm.com,✨ Thank U
- - DOMAIN-SUFFIX,ampproject.org,✨ Thank U
- - DOMAIN-SUFFIX,android.com,✨ Thank U
- - DOMAIN-SUFFIX,aolcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,apkmirror.com,✨ Thank U
- - DOMAIN-SUFFIX,apkpure.com,✨ Thank U
- - DOMAIN-SUFFIX,app-measurement.com,✨ Thank U
- - DOMAIN-SUFFIX,appspot.com,✨ Thank U
- - DOMAIN-SUFFIX,archive.org,✨ Thank U
- - DOMAIN-SUFFIX,armorgames.com,✨ Thank U
- - DOMAIN-SUFFIX,aspnetcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,awsstatic.com,✨ Thank U
- - DOMAIN-SUFFIX,azureedge.net,✨ Thank U
- - DOMAIN-SUFFIX,azurewebsites.net,✨ Thank U
- - DOMAIN-SUFFIX,bandwagonhost.com,✨ Thank U
- - DOMAIN-SUFFIX,bing.com,✨ Thank U
- - DOMAIN-SUFFIX,bkrtx.com,✨ Thank U
- - DOMAIN-SUFFIX,blogcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,blogger.com,✨ Thank U
- - DOMAIN-SUFFIX,blogsmithmedia.com,✨ Thank U
- - DOMAIN-SUFFIX,blogspot.com,✨ Thank U
- - DOMAIN-SUFFIX,blogspot.hk,✨ Thank U
- - DOMAIN-SUFFIX,blogspot.jp,✨ Thank U
- - DOMAIN-SUFFIX,bloomberg.cn,✨ Thank U
- - DOMAIN-SUFFIX,bloomberg.com,✨ Thank U
- - DOMAIN-SUFFIX,box.com,✨ Thank U
- - DOMAIN-SUFFIX,cachefly.net,✨ Thank U
- - DOMAIN-SUFFIX,cdnst.net,✨ Thank U
- - DOMAIN-SUFFIX,cloudfront.net,✨ Thank U
- - DOMAIN-SUFFIX,comodoca.com,✨ Thank U
- - DOMAIN-SUFFIX,daum.net,✨ Thank U
- - DOMAIN-SUFFIX,demdex.net,✨ Thank U
- - DOMAIN-SUFFIX,deskconnect.com,✨ Thank U
- - DOMAIN-SUFFIX,disqus.com,✨ Thank U
- - DOMAIN-SUFFIX,disquscdn.com,✨ Thank U
- - DOMAIN-SUFFIX,dropbox.com,✨ Thank U
- - DOMAIN-SUFFIX,dropboxapi.com,✨ Thank U
- - DOMAIN-SUFFIX,dropboxstatic.com,✨ Thank U
- - DOMAIN-SUFFIX,dropboxusercontent.com,✨ Thank U
- - DOMAIN-SUFFIX,duckduckgo.com,✨ Thank U
- - DOMAIN-SUFFIX,edgecastcdn.net,✨ Thank U
- - DOMAIN-SUFFIX,edgekey.net,✨ Thank U
- - DOMAIN-SUFFIX,edgesuite.net,✨ Thank U
- - DOMAIN-SUFFIX,eurekavpt.com,✨ Thank U
- - DOMAIN-SUFFIX,fastmail.com,✨ Thank U
- - DOMAIN-SUFFIX,firebaseio.com,✨ Thank U
- - DOMAIN-SUFFIX,flickr.com,✨ Thank U
- - DOMAIN-SUFFIX,flipboard.com,✨ Thank U
- - DOMAIN-SUFFIX,gfx.ms,✨ Thank U
- - DOMAIN-SUFFIX,gongm.in,✨ Thank U
- - DOMAIN-SUFFIX,hulu.com,✨ Thank U
- - DOMAIN-SUFFIX,id.heroku.com,✨ Thank U
- - DOMAIN-SUFFIX,io.io,✨ Thank U
- - DOMAIN-SUFFIX,issuu.com,✨ Thank U
- - DOMAIN-SUFFIX,ixquick.com,✨ Thank U
- - DOMAIN-SUFFIX,jtvnw.net,✨ Thank U
- - DOMAIN-SUFFIX,kat.cr,✨ Thank U
- - DOMAIN-SUFFIX,kik.com,✨ Thank U
- - DOMAIN-SUFFIX,kobo.com,✨ Thank U
- - DOMAIN-SUFFIX,kobobooks.com,✨ Thank U
- - DOMAIN-SUFFIX,licdn.com,✨ Thank U
- - DOMAIN-SUFFIX,live.net,✨ Thank U
- - DOMAIN-SUFFIX,livefilestore.com,✨ Thank U
- - DOMAIN-SUFFIX,llnwd.net,✨ Thank U
- - DOMAIN-SUFFIX,macrumors.com,✨ Thank U
- - DOMAIN-SUFFIX,medium.com,✨ Thank U
- - DOMAIN-SUFFIX,mega.nz,✨ Thank U
- - DOMAIN-SUFFIX,megaupload.com,✨ Thank U
- - DOMAIN-SUFFIX,messenger.com,✨ Thank U
- - DOMAIN-SUFFIX,netdna-cdn.com,✨ Thank U
- - DOMAIN-SUFFIX,nintendo.net,✨ Thank U
- - DOMAIN-SUFFIX,nsstatic.net,✨ Thank U
- - DOMAIN-SUFFIX,nytstyle.com,✨ Thank U
- - DOMAIN-SUFFIX,overcast.fm,✨ Thank U
- - DOMAIN-SUFFIX,openvpn.net,✨ Thank U
- - DOMAIN-SUFFIX,periscope.tv,✨ Thank U
- - DOMAIN-SUFFIX,pinimg.com,✨ Thank U
- - DOMAIN-SUFFIX,pinterest.com,✨ Thank U
- - DOMAIN-SUFFIX,potato.im,✨ Thank U
- - DOMAIN-SUFFIX,prfct.co,✨ Thank U
- - DOMAIN-SUFFIX,pscp.tv,✨ Thank U
- - DOMAIN-SUFFIX,quora.com,✨ Thank U
- - DOMAIN-SUFFIX,resilio.com,✨ Thank U
- - DOMAIN-SUFFIX,sfx.ms,✨ Thank U
- - DOMAIN-SUFFIX,shadowsocks.org,✨ Thank U
- - DOMAIN-SUFFIX,slack-edge.com,✨ Thank U
- - DOMAIN-SUFFIX,smartdnsproxy.com,✨ Thank U
- - DOMAIN-SUFFIX,sndcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,soundcloud.com,✨ Thank U
- - DOMAIN-SUFFIX,startpage.com,✨ Thank U
- - DOMAIN-SUFFIX,staticflickr.com,✨ Thank U
- - DOMAIN-SUFFIX,symauth.com,✨ Thank U
- - DOMAIN-SUFFIX,symcb.com,✨ Thank U
- - DOMAIN-SUFFIX,symcd.com,✨ Thank U
- - DOMAIN-SUFFIX,textnow.com,✨ Thank U
- - DOMAIN-SUFFIX,textnow.me,✨ Thank U
- - DOMAIN-SUFFIX,thefacebook.com,✨ Thank U
- - DOMAIN-SUFFIX,thepiratebay.org,✨ Thank U
- - DOMAIN-SUFFIX,torproject.org,✨ Thank U
- - DOMAIN-SUFFIX,trustasiassl.com,✨ Thank U
- - DOMAIN-SUFFIX,tumblr.co,✨ Thank U
- - DOMAIN-SUFFIX,tumblr.com,✨ Thank U
- - DOMAIN-SUFFIX,tvb.com,✨ Thank U
- - DOMAIN-SUFFIX,txmblr.com,✨ Thank U
- - DOMAIN-SUFFIX,v2ex.com,✨ Thank U
- - DOMAIN-SUFFIX,vimeo.com,✨ Thank U
- - DOMAIN-SUFFIX,vine.co,✨ Thank U
- - DOMAIN-SUFFIX,vox-cdn.com,✨ Thank U
- - DOMAIN-SUFFIX,amazon.co.jp,✨ Thank U
- - DOMAIN-SUFFIX,amazon.com,✨ Thank U
- - DOMAIN-SUFFIX,amazonaws.com,✨ Thank U
- - IP-CIDR,13.32.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,13.35.0.0/17,✨ Thank U,no-resolve
- - IP-CIDR,18.184.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,18.194.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,18.208.0.0/13,✨ Thank U,no-resolve
- - IP-CIDR,18.232.0.0/14,✨ Thank U,no-resolve
- - IP-CIDR,52.58.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,52.74.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,52.77.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,52.84.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,52.200.0.0/13,✨ Thank U,no-resolve
- - IP-CIDR,54.93.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,54.156.0.0/14,✨ Thank U,no-resolve
- - IP-CIDR,54.226.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,54.230.156.0/22,✨ Thank U,no-resolve
- - DOMAIN-KEYWORD,uk-live,✨ Thank U
- - DOMAIN-SUFFIX,bbc.co,✨ Thank U
- - DOMAIN-SUFFIX,bbc.com,✨ Thank U
- - DOMAIN-SUFFIX,apache.org,✨ Thank U
- - DOMAIN-SUFFIX,docker.com,✨ Thank U
- - DOMAIN-SUFFIX,elastic.co,✨ Thank U
- - DOMAIN-SUFFIX,elastic.com,✨ Thank U
- - DOMAIN-SUFFIX,gcr.io,✨ Thank U
- - DOMAIN-SUFFIX,gitlab.com,✨ Thank U
- - DOMAIN-SUFFIX,gitlab.io,✨ Thank U
- - DOMAIN-SUFFIX,jitpack.io,✨ Thank U
- - DOMAIN-SUFFIX,maven.org,✨ Thank U
- - DOMAIN-SUFFIX,medium.com,✨ Thank U
- - DOMAIN-SUFFIX,mvnrepository.com,✨ Thank U
- - DOMAIN-SUFFIX,quay.io,✨ Thank U
- - DOMAIN-SUFFIX,reddit.com,✨ Thank U
- - DOMAIN-SUFFIX,redhat.com,✨ Thank U
- - DOMAIN-SUFFIX,sonatype.org,✨ Thank U
- - DOMAIN-SUFFIX,sourcegraph.com,✨ Thank U
- - DOMAIN-SUFFIX,spring.io,✨ Thank U
- - DOMAIN-SUFFIX,spring.net,✨ Thank U
- - DOMAIN-SUFFIX,stackoverflow.com,✨ Thank U
- - DOMAIN-SUFFIX,discord.co,✨ Thank U
- - DOMAIN-SUFFIX,discord.com,✨ Thank U
- - DOMAIN-SUFFIX,discord.gg,✨ Thank U
- - DOMAIN-SUFFIX,discord.media,✨ Thank U
- - DOMAIN-SUFFIX,discordapp.com,✨ Thank U
- - DOMAIN-SUFFIX,discordapp.net,✨ Thank U
- - DOMAIN-SUFFIX,facebook.com,✨ Thank U
- - DOMAIN-SUFFIX,fb.com,✨ Thank U
- - DOMAIN-SUFFIX,fb.me,✨ Thank U
- - DOMAIN-SUFFIX,fbcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,fbcdn.net,✨ Thank U
- - IP-CIDR,31.13.24.0/21,✨ Thank U,no-resolve
- - IP-CIDR,31.13.64.0/18,✨ Thank U,no-resolve
- - IP-CIDR,45.64.40.0/22,✨ Thank U,no-resolve
- - IP-CIDR,66.220.144.0/20,✨ Thank U,no-resolve
- - IP-CIDR,69.63.176.0/20,✨ Thank U,no-resolve
- - IP-CIDR,69.171.224.0/19,✨ Thank U,no-resolve
- - IP-CIDR,74.119.76.0/22,✨ Thank U,no-resolve
- - IP-CIDR,103.4.96.0/22,✨ Thank U,no-resolve
- - IP-CIDR,129.134.0.0/17,✨ Thank U,no-resolve
- - IP-CIDR,157.240.0.0/17,✨ Thank U,no-resolve
- - IP-CIDR,173.252.64.0/18,✨ Thank U,no-resolve
- - IP-CIDR,179.60.192.0/22,✨ Thank U,no-resolve
- - IP-CIDR,185.60.216.0/22,✨ Thank U,no-resolve
- - IP-CIDR,204.15.20.0/22,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,github.com,✨ Thank U
- - DOMAIN-SUFFIX,github.io,✨ Thank U
- - DOMAIN-SUFFIX,githubapp.com,✨ Thank U
- - DOMAIN-SUFFIX,githubassets.com,✨ Thank U
- - DOMAIN-SUFFIX,githubusercontent.com,✨ Thank U
- - DOMAIN-SUFFIX,1e100.net,✨ Thank U
- - DOMAIN-SUFFIX,2mdn.net,✨ Thank U
- - DOMAIN-SUFFIX,app-measurement.net,✨ Thank U
- - DOMAIN-SUFFIX,g.co,✨ Thank U
- - DOMAIN-SUFFIX,ggpht.com,✨ Thank U
- - DOMAIN-SUFFIX,goo.gl,✨ Thank U
- - DOMAIN-SUFFIX,googleapis.cn,✨ Thank U
- - DOMAIN-SUFFIX,googleapis.com,✨ Thank U
- - DOMAIN-SUFFIX,gstatic.cn,✨ Thank U
- - DOMAIN-SUFFIX,gstatic.com,✨ Thank U
- - DOMAIN-SUFFIX,gvt0.com,✨ Thank U
- - DOMAIN-SUFFIX,gvt1.com,✨ Thank U
- - DOMAIN-SUFFIX,gvt2.com,✨ Thank U
- - DOMAIN-SUFFIX,gvt3.com,✨ Thank U
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,✨ Thank U
- - DOMAIN-SUFFIX,youtu.be,✨ Thank U
- - DOMAIN-SUFFIX,youtube-nocookie.com,✨ Thank U
- - DOMAIN-SUFFIX,youtube.com,✨ Thank U
- - DOMAIN-SUFFIX,yt.be,✨ Thank U
- - DOMAIN-SUFFIX,ytimg.com,✨ Thank U
- - IP-CIDR,74.125.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,173.194.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,120.232.181.162/32,✨ Thank U,no-resolve
- - IP-CIDR,120.241.147.226/32,✨ Thank U,no-resolve
- - IP-CIDR,120.253.253.226/32,✨ Thank U,no-resolve
- - IP-CIDR,120.253.255.162/32,✨ Thank U,no-resolve
- - IP-CIDR,120.253.255.34/32,✨ Thank U,no-resolve
- - IP-CIDR,120.253.255.98/32,✨ Thank U,no-resolve
- - IP-CIDR,180.163.150.162/32,✨ Thank U,no-resolve
- - IP-CIDR,180.163.150.34/32,✨ Thank U,no-resolve
- - IP-CIDR,180.163.151.162/32,✨ Thank U,no-resolve
- - IP-CIDR,180.163.151.34/32,✨ Thank U,no-resolve
- - IP-CIDR,203.208.39.0/24,✨ Thank U,no-resolve
- - IP-CIDR,203.208.40.0/24,✨ Thank U,no-resolve
- - IP-CIDR,203.208.41.0/24,✨ Thank U,no-resolve
- - IP-CIDR,203.208.43.0/24,✨ Thank U,no-resolve
- - IP-CIDR,203.208.50.0/24,✨ Thank U,no-resolve
- - IP-CIDR,220.181.174.162/32,✨ Thank U,no-resolve
- - IP-CIDR,220.181.174.226/32,✨ Thank U,no-resolve
- - IP-CIDR,220.181.174.34/32,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,cdninstagram.com,✨ Thank U
- - DOMAIN-SUFFIX,instagram.com,✨ Thank U
- - DOMAIN-SUFFIX,instagr.am,✨ Thank U
- - DOMAIN-SUFFIX,kakao.com,✨ Thank U
- - DOMAIN-SUFFIX,kakao.co.kr,✨ Thank U
- - DOMAIN-SUFFIX,kakaocdn.net,✨ Thank U
- - IP-CIDR,1.201.0.0/24,✨ Thank U,no-resolve
- - IP-CIDR,27.0.236.0/22,✨ Thank U,no-resolve
- - IP-CIDR,103.27.148.0/22,✨ Thank U,no-resolve
- - IP-CIDR,103.246.56.0/22,✨ Thank U,no-resolve
- - IP-CIDR,110.76.140.0/22,✨ Thank U,no-resolve
- - IP-CIDR,113.61.104.0/22,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,lin.ee,✨ Thank U
- - DOMAIN-SUFFIX,line-apps.com,✨ Thank U
- - DOMAIN-SUFFIX,line-cdn.net,✨ Thank U
- - DOMAIN-SUFFIX,line-scdn.net,✨ Thank U
- - DOMAIN-SUFFIX,line.me,✨ Thank U
- - DOMAIN-SUFFIX,line.naver.jp,✨ Thank U
- - DOMAIN-SUFFIX,nhncorp.jp,✨ Thank U
- - IP-CIDR,103.2.28.0/24,✨ Thank U,no-resolve
- - IP-CIDR,103.2.30.0/23,✨ Thank U,no-resolve
- - IP-CIDR,119.235.224.0/24,✨ Thank U,no-resolve
- - IP-CIDR,119.235.232.0/24,✨ Thank U,no-resolve
- - IP-CIDR,119.235.235.0/24,✨ Thank U,no-resolve
- - IP-CIDR,119.235.236.0/23,✨ Thank U,no-resolve
- - IP-CIDR,147.92.128.0/17,✨ Thank U,no-resolve
- - IP-CIDR,203.104.128.0/19,✨ Thank U,no-resolve
- - DOMAIN-KEYWORD,1drv,✨ Thank U
- - DOMAIN-KEYWORD,onedrive,✨ Thank U
- - DOMAIN-KEYWORD,skydrive,✨ Thank U
- - DOMAIN-SUFFIX,livefilestore.com,✨ Thank U
- - DOMAIN-SUFFIX,oneclient.sfx.ms,✨ Thank U
- - DOMAIN-SUFFIX,onedrive.com,✨ Thank U
- - DOMAIN-SUFFIX,onedrive.live.com,✨ Thank U
- - DOMAIN-SUFFIX,photos.live.com,✨ Thank U
- - DOMAIN-SUFFIX,skydrive.wns.windows.com,✨ Thank U
- - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,✨ Thank U
- - DOMAIN-SUFFIX,storage.live.com,✨ Thank U
- - DOMAIN-SUFFIX,storage.msn.com,✨ Thank U
- - DOMAIN-KEYWORD,porn,✨ Thank U
- - DOMAIN-SUFFIX,8teenxxx.com,✨ Thank U
- - DOMAIN-SUFFIX,ahcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,bcvcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,bongacams.com,✨ Thank U
- - DOMAIN-SUFFIX,chaturbate.com,✨ Thank U
- - DOMAIN-SUFFIX,dditscdn.com,✨ Thank U
- - DOMAIN-SUFFIX,livejasmin.com,✨ Thank U
- - DOMAIN-SUFFIX,phncdn.com,✨ Thank U
- - DOMAIN-SUFFIX,phprcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,pornhub.com,✨ Thank U
- - DOMAIN-SUFFIX,pornhubpremium.com,✨ Thank U
- - DOMAIN-SUFFIX,rdtcdn.com,✨ Thank U
- - DOMAIN-SUFFIX,redtube.com,✨ Thank U
- - DOMAIN-SUFFIX,sb-cd.com,✨ Thank U
- - DOMAIN-SUFFIX,spankbang.com,✨ Thank U
- - DOMAIN-SUFFIX,t66y.com,✨ Thank U
- - DOMAIN-SUFFIX,xhamster.com,✨ Thank U
- - DOMAIN-SUFFIX,xnxx-cdn.com,✨ Thank U
- - DOMAIN-SUFFIX,xnxx.com,✨ Thank U
- - DOMAIN-SUFFIX,xvideos-cdn.com,✨ Thank U
- - DOMAIN-SUFFIX,xvideos.com,✨ Thank U
- - DOMAIN-SUFFIX,ypncdn.com,✨ Thank U
- - DOMAIN-SUFFIX,pixiv.net,✨ Thank U
- - DOMAIN-SUFFIX,pximg.net,✨ Thank U
- - DOMAIN-SUFFIX,amplitude.com,✨ Thank U
- - DOMAIN-SUFFIX,firebaseio.com,✨ Thank U
- - DOMAIN-SUFFIX,hockeyapp.net,✨ Thank U
- - DOMAIN-SUFFIX,readdle.com,✨ Thank U
- - DOMAIN-SUFFIX,smartmailcloud.com,✨ Thank U
- - DOMAIN-SUFFIX,fanatical.com,✨ Thank U
- - DOMAIN-SUFFIX,humblebundle.com,✨ Thank U
- - DOMAIN-SUFFIX,underlords.com,✨ Thank U
- - DOMAIN-SUFFIX,valvesoftware.com,✨ Thank U
- - DOMAIN-SUFFIX,playartifact.com,✨ Thank U
- - DOMAIN-SUFFIX,steam-chat.com,✨ Thank U
- - DOMAIN-SUFFIX,steamcommunity.com,✨ Thank U
- - DOMAIN-SUFFIX,steamgames.com,✨ Thank U
- - DOMAIN-SUFFIX,steampowered.com,✨ Thank U
- - DOMAIN-SUFFIX,steamstatic.com,✨ Thank U
- - DOMAIN-SUFFIX,steamstat.us,✨ Thank U
- - DOMAIN,steambroadcast.akamaized.net,✨ Thank U
- - DOMAIN,steamcdn-a.akamaihd.net,✨ Thank U
- - DOMAIN,steamcommunity-a.akamaihd.net,✨ Thank U
- - DOMAIN,steamstore-a.akamaihd.net,✨ Thank U
- - DOMAIN,steamusercontent-a.akamaihd.net,✨ Thank U
- - DOMAIN,steamuserimages-a.akamaihd.net,✨ Thank U
- - DOMAIN,steampipe.akamaized.net,✨ Thank U
- - DOMAIN-SUFFIX,tap.io,✨ Thank U
- - DOMAIN-SUFFIX,taptap.tw,✨ Thank U
- - DOMAIN-SUFFIX,twitch.tv,✨ Thank U
- - DOMAIN-SUFFIX,ttvnw.net,✨ Thank U
- - DOMAIN-SUFFIX,jtvnw.net,✨ Thank U
- - DOMAIN-KEYWORD,ttvnw,✨ Thank U
- - DOMAIN-SUFFIX,t.co,✨ Thank U
- - DOMAIN-SUFFIX,twimg.co,✨ Thank U
- - DOMAIN-SUFFIX,twimg.com,✨ Thank U
- - DOMAIN-SUFFIX,twimg.org,✨ Thank U
- - DOMAIN-SUFFIX,t.me,✨ Thank U
- - DOMAIN-SUFFIX,tdesktop.com,✨ Thank U
- - DOMAIN-SUFFIX,telegra.ph,✨ Thank U
- - DOMAIN-SUFFIX,telegram.me,✨ Thank U
- - DOMAIN-SUFFIX,telegram.org,✨ Thank U
- - DOMAIN-SUFFIX,telesco.pe,✨ Thank U
- - IP-CIDR,91.108.0.0/16,✨ Thank U,no-resolve
- - IP-CIDR,109.239.140.0/24,✨ Thank U,no-resolve
- - IP-CIDR,149.154.160.0/20,✨ Thank U,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,✨ Thank U,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,✨ Thank U,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,terabox.com,✨ Thank U
- - DOMAIN-SUFFIX,teraboxcdn.com,✨ Thank U
- - IP-CIDR,18.194.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,34.224.0.0/12,✨ Thank U,no-resolve
- - IP-CIDR,54.242.0.0/15,✨ Thank U,no-resolve
- - IP-CIDR,50.22.198.204/30,✨ Thank U,no-resolve
- - IP-CIDR,208.43.122.128/27,✨ Thank U,no-resolve
- - IP-CIDR,108.168.174.0/16,✨ Thank U,no-resolve
- - IP-CIDR,173.192.231.32/27,✨ Thank U,no-resolve
- - IP-CIDR,158.85.5.192/27,✨ Thank U,no-resolve
- - IP-CIDR,174.37.243.0/16,✨ Thank U,no-resolve
- - IP-CIDR,158.85.46.128/27,✨ Thank U,no-resolve
- - IP-CIDR,173.192.222.160/27,✨ Thank U,no-resolve
- - IP-CIDR,184.173.128.0/17,✨ Thank U,no-resolve
- - IP-CIDR,158.85.224.160/27,✨ Thank U,no-resolve
- - IP-CIDR,75.126.150.0/16,✨ Thank U,no-resolve
- - IP-CIDR,69.171.235.0/16,✨ Thank U,no-resolve
- - DOMAIN-SUFFIX,mediawiki.org,✨ Thank U
- - DOMAIN-SUFFIX,wikibooks.org,✨ Thank U
- - DOMAIN-SUFFIX,wikidata.org,✨ Thank U
- - DOMAIN-SUFFIX,wikileaks.org,✨ Thank U
- - DOMAIN-SUFFIX,wikimedia.org,✨ Thank U
- - DOMAIN-SUFFIX,wikinews.org,✨ Thank U
- - DOMAIN-SUFFIX,wikipedia.org,✨ Thank U
- - DOMAIN-SUFFIX,wikiquote.org,✨ Thank U
- - DOMAIN-SUFFIX,wikisource.org,✨ Thank U
- - DOMAIN-SUFFIX,wikiversity.org,✨ Thank U
- - DOMAIN-SUFFIX,wikivoyage.org,✨ Thank U
- - DOMAIN-SUFFIX,wiktionary.org,✨ Thank U
- - DOMAIN-SUFFIX,neulion.com,✨ Thank U
- - DOMAIN-SUFFIX,icntv.xyz,✨ Thank U
- - DOMAIN-SUFFIX,flzbcdn.xyz,✨ Thank U
- - DOMAIN-SUFFIX,ocnttv.com,✨ Thank U
+ - DOMAIN-SUFFIX,t.me,🎇 Thank U
+ - DOMAIN-SUFFIX,tdesktop.com,🎇 Thank U
+ - DOMAIN-SUFFIX,telegra.ph,🎇 Thank U
+ - DOMAIN-SUFFIX,telegram.me,🎇 Thank U
+ - DOMAIN-SUFFIX,telegram.org,🎇 Thank U
+ - DOMAIN-SUFFIX,telesco.pe,🎇 Thank U
+ - IP-CIDR,91.108.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,109.239.140.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,149.154.160.0/20,🎇 Thank U,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🎇 Thank U,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🎇 Thank U,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,edgedatg.com,🎇 Thank U
+ - DOMAIN-SUFFIX,go.com,🎇 Thank U
+ - DOMAIN-KEYWORD,abematv.akamaized.net,🎇 Thank U
+ - DOMAIN-SUFFIX,abema.io,🎇 Thank U
+ - DOMAIN-SUFFIX,abema.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,ameba.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,hayabusa.io,🎇 Thank U
+ - DOMAIN-SUFFIX,c4assets.com,🎇 Thank U
+ - DOMAIN-SUFFIX,channel4.com,🎇 Thank U
+ - DOMAIN-KEYWORD,avoddashs,🎇 Thank U
+ - DOMAIN,atv-ps.amazon.com,🎇 Thank U
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🎇 Thank U
+ - DOMAIN,d1xfray82862hr.cloudfront.net,🎇 Thank U
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🎇 Thank U
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,🎇 Thank U
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,🎇 Thank U
+ - DOMAIN,d3196yreox78o9.cloudfront.net,🎇 Thank U
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🎇 Thank U
+ - DOMAIN,ktpx.amazon.com,🎇 Thank U
+ - DOMAIN-SUFFIX,aboutamazon.com,🎇 Thank U
+ - DOMAIN-SUFFIX,aiv-cdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,aiv-delivery.net,🎇 Thank U
+ - DOMAIN-SUFFIX,amazon.jobs,🎇 Thank U
+ - DOMAIN-SUFFIX,amazonvideo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,media-amazon.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pv-cdn.net,🎇 Thank U
+ - DOMAIN,gspe1-ssl.ls.apple.com,🎇 Thank U
+ - DOMAIN,np-edge.itunes.apple.com,🎇 Thank U
+ - DOMAIN,play-edge.itunes.apple.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tv.apple.com,🎇 Thank U
+ - DOMAIN-KEYWORD,bbcfmt,🎇 Thank U
+ - DOMAIN-KEYWORD,uk-live,🎇 Thank U
+ - DOMAIN,aod-dash-uk-live.akamaized.net,🎇 Thank U
+ - DOMAIN,aod-hls-uk-live.akamaized.net,🎇 Thank U
+ - DOMAIN,vod-dash-uk-live.akamaized.net,🎇 Thank U
+ - DOMAIN,vod-thumb-uk-live.akamaized.net,🎇 Thank U
+ - DOMAIN-SUFFIX,bbc.co,🎇 Thank U
+ - DOMAIN-SUFFIX,bbc.co.uk,🎇 Thank U
+ - DOMAIN-SUFFIX,bbc.com,🎇 Thank U
+ - DOMAIN-SUFFIX,bbc.net.uk,🎇 Thank U
+ - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🎇 Thank U
+ - DOMAIN-SUFFIX,bbci.co,🎇 Thank U
+ - DOMAIN-SUFFIX,bbci.co.uk,🎇 Thank U
+ - DOMAIN-SUFFIX,bidi.net.uk,🎇 Thank U
+ - DOMAIN,bahamut.akamaized.net,🎇 Thank U
+ - DOMAIN,gamer-cds.cdn.hinet.net,🎇 Thank U
+ - DOMAIN,gamer2-cds.cdn.hinet.net,🎇 Thank U
+ - DOMAIN-SUFFIX,bahamut.com.tw,🎇 Thank U
+ - DOMAIN-SUFFIX,gamer.com.tw,🎇 Thank U
+ - DOMAIN-KEYWORD,voddazn,🎇 Thank U
+ - DOMAIN,d151l6v8er5bdm.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,dazn-api.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dazn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dazndn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🎇 Thank U
+ - DOMAIN-SUFFIX,indazn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,indaznlab.com,🎇 Thank U
+ - DOMAIN-SUFFIX,sentry.io,🎇 Thank U
+ - DOMAIN-SUFFIX,deezer.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dzcdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,disco-api.com,🎇 Thank U
+ - DOMAIN-SUFFIX,discovery.com,🎇 Thank U
+ - DOMAIN-SUFFIX,uplynk.com,🎇 Thank U
+ - DOMAIN,cdn.registerdisney.go.com,🎇 Thank U
+ - DOMAIN-SUFFIX,adobedtm.com,🎇 Thank U
+ - DOMAIN-SUFFIX,bam.nr-data.net,🎇 Thank U
+ - DOMAIN-SUFFIX,bamgrid.com,🎇 Thank U
+ - DOMAIN-SUFFIX,braze.com,🎇 Thank U
+ - DOMAIN-SUFFIX,cdn.optimizely.com,🎇 Thank U
+ - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🎇 Thank U
+ - DOMAIN-SUFFIX,cws.conviva.com,🎇 Thank U
+ - DOMAIN-SUFFIX,d9.flashtalking.com,🎇 Thank U
+ - DOMAIN-SUFFIX,disney-plus.net,🎇 Thank U
+ - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🎇 Thank U
+ - DOMAIN-SUFFIX,disney.demdex.net,🎇 Thank U
+ - DOMAIN-SUFFIX,disney.my.sentry.io,🎇 Thank U
+ - DOMAIN-SUFFIX,disneyplus.bn5x.net,🎇 Thank U
+ - DOMAIN-SUFFIX,disneyplus.com,🎇 Thank U
+ - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🎇 Thank U
+ - DOMAIN-SUFFIX,disneystreaming.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dssott.com,🎇 Thank U
+ - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🎇 Thank U
+ - DOMAIN-SUFFIX,js-agent.newrelic.com,🎇 Thank U
+ - DOMAIN,bcbolt446c5271-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,content.jwplatform.com,🎇 Thank U
+ - DOMAIN,edge.api.brightcove.com,🎇 Thank U
+ - DOMAIN,videos-f.jwpsrv.com,🎇 Thank U
+ - DOMAIN-SUFFIX,encoretvb.com,🎇 Thank U
+ - DOMAIN-SUFFIX,fox.com,🎇 Thank U
+ - DOMAIN-SUFFIX,foxdcg.com,🎇 Thank U
+ - DOMAIN-SUFFIX,uplynk.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbogo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbomax.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbonow.com,🎇 Thank U
+ - DOMAIN-KEYWORD,.hbogoasia.,🎇 Thank U
+ - DOMAIN-KEYWORD,hbogoasia,🎇 Thank U
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🎇 Thank U
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🎇 Thank U
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🎇 Thank U
+ - DOMAIN,hboasia1-i.akamaihd.net,🎇 Thank U
+ - DOMAIN,hboasia2-i.akamaihd.net,🎇 Thank U
+ - DOMAIN,hboasia3-i.akamaihd.net,🎇 Thank U
+ - DOMAIN,hboasia4-i.akamaihd.net,🎇 Thank U
+ - DOMAIN,hboasia5-i.akamaihd.net,🎇 Thank U
+ - DOMAIN,hboasialive.akamaized.net,🎇 Thank U
+ - DOMAIN,hbogoprod-vod.akamaized.net,🎇 Thank U
+ - DOMAIN,hbolb.onwardsmg.com,🎇 Thank U
+ - DOMAIN,hbounify-prod.evergent.com,🎇 Thank U
+ - DOMAIN,players.brightcove.net,🎇 Thank U
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hboasia.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbogoasia.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hbogoasia.hk,🎇 Thank U
+ - DOMAIN-SUFFIX,5itv.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,ocnttv.com,🎇 Thank U
+ - DOMAIN-SUFFIX,cws-hulu.conviva.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hulu.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🎇 Thank U
+ - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🎇 Thank U
+ - DOMAIN-SUFFIX,huluad.com,🎇 Thank U
+ - DOMAIN-SUFFIX,huluim.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hulustream.com,🎇 Thank U
+ - DOMAIN-SUFFIX,happyon.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,hjholdings.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,hulu.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,prod.hjholdings.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,streaks.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,yb.uncn.jp,🎇 Thank U
+ - DOMAIN,itvpnpmobile-a.akamaihd.net,🎇 Thank U
+ - DOMAIN-SUFFIX,itv.com,🎇 Thank U
+ - DOMAIN-SUFFIX,itvstatic.com,🎇 Thank U
+ - DOMAIN-KEYWORD,jooxweb-api,🎇 Thank U
+ - DOMAIN-SUFFIX,joox.com,🎇 Thank U
+ - DOMAIN-KEYWORD,japonx,🎇 Thank U
+ - DOMAIN-KEYWORD,japronx,🎇 Thank U
+ - DOMAIN-SUFFIX,japonx.com,🎇 Thank U
+ - DOMAIN-SUFFIX,japonx.net,🎇 Thank U
+ - DOMAIN-SUFFIX,japonx.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,japonx.vip,🎇 Thank U
+ - DOMAIN-SUFFIX,japronx.com,🎇 Thank U
+ - DOMAIN-SUFFIX,japronx.net,🎇 Thank U
+ - DOMAIN-SUFFIX,japronx.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,japronx.vip,🎇 Thank U
+ - DOMAIN-SUFFIX,kfs.io,🎇 Thank U
+ - DOMAIN-SUFFIX,kkbox.com,🎇 Thank U
+ - DOMAIN-SUFFIX,kkbox.com.tw,🎇 Thank U
+ - DOMAIN,kktv-theater.kk.stream,🎇 Thank U
+ - DOMAIN,theater-kktv.cdn.hinet.net,🎇 Thank U
+ - DOMAIN-SUFFIX,kktv.com.tw,🎇 Thank U
+ - DOMAIN-SUFFIX,kktv.me,🎇 Thank U
+ - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🎇 Thank U
+ - DOMAIN-SUFFIX,litv.tv,🎇 Thank U
+ - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,linetv.tw,🎇 Thank U
+ - DOMAIN-SUFFIX,profile.line-scdn.net,🎇 Thank U
+ - DOMAIN,d349g9zuie06uo.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,channel5.com,🎇 Thank U
+ - DOMAIN-SUFFIX,my5.tv,🎇 Thank U
+ - DOMAIN-KEYWORD,nowtv100,🎇 Thank U
+ - DOMAIN-KEYWORD,rthklive,🎇 Thank U
+ - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🎇 Thank U
+ - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🎇 Thank U
+ - DOMAIN-SUFFIX,mytvsuper.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tvb.com,🎇 Thank U
+ - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🎇 Thank U
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🎇 Thank U
+ - DOMAIN-KEYWORD,netflixdnstest,🎇 Thank U
+ - DOMAIN,netflix.com.edgesuite.net,🎇 Thank U
+ - DOMAIN-SUFFIX,fast.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflix.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflix.net,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest0.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest1.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest2.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest3.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest4.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest5.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest6.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest7.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest8.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netflixdnstest9.com,🎇 Thank U
+ - DOMAIN-SUFFIX,nflxext.com,🎇 Thank U
+ - DOMAIN-SUFFIX,nflximg.com,🎇 Thank U
+ - DOMAIN-SUFFIX,nflximg.net,🎇 Thank U
+ - DOMAIN-SUFFIX,nflxso.net,🎇 Thank U
+ - DOMAIN-SUFFIX,nflxvideo.net,🎇 Thank U
+ - IP-CIDR,8.41.4.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,23.246.0.0/18,🎇 Thank U,no-resolve
+ - IP-CIDR,37.77.184.0/21,🎇 Thank U,no-resolve
+ - IP-CIDR,38.72.126.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,45.57.0.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,64.120.128.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,66.197.128.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,69.53.224.0/19,🎇 Thank U,no-resolve
+ - IP-CIDR,103.87.204.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,108.175.32.0/20,🎇 Thank U,no-resolve
+ - IP-CIDR,185.2.220.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,185.9.188.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,192.173.64.0/18,🎇 Thank U,no-resolve
+ - IP-CIDR,198.38.96.0/19,🎇 Thank U,no-resolve
+ - IP-CIDR,198.45.48.0/20,🎇 Thank U,no-resolve
+ - IP-CIDR,207.45.72.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,208.75.76.0/22,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,dmc.nico,🎇 Thank U
+ - DOMAIN-SUFFIX,nicovideo.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,nimg.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,pbs.org,🎇 Thank U
+ - DOMAIN-SUFFIX,pandora.com,🎇 Thank U
+ - DOMAIN-SUFFIX,phncdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,phprcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pornhub.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pornhubpremium.com,🎇 Thank U
+ - DOMAIN-SUFFIX,qobuz.com,🎇 Thank U
+ - DOMAIN-SUFFIX,p-cdn.us,🎇 Thank U
+ - DOMAIN-SUFFIX,sndcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,soundcloud.com,🎇 Thank U
+ - DOMAIN-KEYWORD,-spotify-com,🎇 Thank U
+ - DOMAIN-KEYWORD,spotify.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pscdn.co,🎇 Thank U
+ - DOMAIN-SUFFIX,scdn.co,🎇 Thank U
+ - DOMAIN-SUFFIX,spoti.fi,🎇 Thank U
+ - DOMAIN-SUFFIX,spotify.com,🎇 Thank U
+ - DOMAIN-SUFFIX,spotifycdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,spotifycdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tidal.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tidalhifi.com,🎇 Thank U
+ - DOMAIN,hamifans.emome.net,🎇 Thank U
+ - DOMAIN-SUFFIX,skyking.com.tw,🎇 Thank U
+ - DOMAIN-KEYWORD,tiktokcdn-,🎇 Thank U
+ - DOMAIN-SUFFIX,byteoversea.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ibytedtos.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ipstatp.com,🎇 Thank U
+ - DOMAIN-SUFFIX,muscdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,musical.ly,🎇 Thank U
+ - DOMAIN-SUFFIX,tik-tokapi.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tiktok.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tiktokcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tiktokv.com,🎇 Thank U
+ - DOMAIN-KEYWORD,ttvnw,🎇 Thank U
+ - DOMAIN-SUFFIX,ext-twitch.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,jtvnw.net,🎇 Thank U
+ - DOMAIN-SUFFIX,ttvnw.net,🎇 Thank U
+ - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🎇 Thank U
+ - DOMAIN-SUFFIX,twitch.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,twitchcdn.net,🎇 Thank U
+ - DOMAIN,api.viu.now.com,🎇 Thank U
+ - DOMAIN,d1k2us671qcoau.cloudfront.net,🎇 Thank U
+ - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🎇 Thank U
+ - DOMAIN,dfp6rglgjqszk.cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,bootstrapcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🎇 Thank U
+ - DOMAIN-SUFFIX,firebaseio.com,🎇 Thank U
+ - DOMAIN-SUFFIX,jwpcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,jwplayer.com,🎇 Thank U
+ - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🎇 Thank U
+ - DOMAIN-SUFFIX,nowe.com,🎇 Thank U
+ - DOMAIN-SUFFIX,viu.com,🎇 Thank U
+ - DOMAIN-SUFFIX,viu.now.com,🎇 Thank U
+ - DOMAIN-SUFFIX,viu.tv,🎇 Thank U
+ - DOMAIN-KEYWORD,youtube,🎇 Thank U
+ - DOMAIN,youtubei.googleapis.com,🎇 Thank U
+ - DOMAIN,yt3.ggpht.com,🎇 Thank U
+ - DOMAIN-SUFFIX,googlevideo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gvt2.com,🎇 Thank U
+ - DOMAIN-SUFFIX,withyoutube.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtu.be,🎇 Thank U
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtube.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtubeeducation.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtubegaming.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtubekids.com,🎇 Thank U
+ - DOMAIN-SUFFIX,yt.be,🎇 Thank U
+ - DOMAIN-SUFFIX,ytimg.com,🎇 Thank U
+ - DOMAIN,music.youtube.com,🎇 Thank U
+ - DOMAIN-SUFFIX,1password.com,🎇 Thank U
+ - DOMAIN-SUFFIX,adguard.org,🎇 Thank U
+ - DOMAIN-SUFFIX,bit.no.com,🎇 Thank U
+ - DOMAIN-SUFFIX,btlibrary.me,🎇 Thank U
+ - DOMAIN-SUFFIX,cccat.io,🎇 Thank U
+ - DOMAIN-SUFFIX,cloudcone.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dubox.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gameloft.com,🎇 Thank U
+ - DOMAIN-SUFFIX,garena.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hoyolab.com,🎇 Thank U
+ - DOMAIN-SUFFIX,inoreader.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ip138.com,🎇 Thank U
+ - DOMAIN-SUFFIX,linkedin.com,🎇 Thank U
+ - DOMAIN-SUFFIX,myteamspeak.com,🎇 Thank U
+ - DOMAIN-SUFFIX,notion.so,🎇 Thank U
+ - DOMAIN-SUFFIX,ping.pe,🎇 Thank U
+ - DOMAIN-SUFFIX,reddit.com,🎇 Thank U
+ - DOMAIN-SUFFIX,teddysun.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tumbex.com,🎇 Thank U
+ - DOMAIN-SUFFIX,twdvd.com,🎇 Thank U
+ - DOMAIN-SUFFIX,unsplash.com,🎇 Thank U
+ - DOMAIN-SUFFIX,eu,🎇 Thank U
+ - DOMAIN-SUFFIX,hk,🎇 Thank U
+ - DOMAIN-SUFFIX,jp,🎇 Thank U
+ - DOMAIN-SUFFIX,kr,🎇 Thank U
+ - DOMAIN-SUFFIX,sg,🎇 Thank U
+ - DOMAIN-SUFFIX,tw,🎇 Thank U
+ - DOMAIN-SUFFIX,uk,🎇 Thank U
+ - DOMAIN-SUFFIX,us,🎇 Thank U
+ - DOMAIN-KEYWORD,1e100,🎇 Thank U
+ - DOMAIN-KEYWORD,abema,🎇 Thank U
+ - DOMAIN-KEYWORD,appledaily,🎇 Thank U
+ - DOMAIN-KEYWORD,avtb,🎇 Thank U
+ - DOMAIN-KEYWORD,beetalk,🎇 Thank U
+ - DOMAIN-KEYWORD,blogspot,🎇 Thank U
+ - DOMAIN-KEYWORD,dropbox,🎇 Thank U
+ - DOMAIN-KEYWORD,facebook,🎇 Thank U
+ - DOMAIN-KEYWORD,fbcdn,🎇 Thank U
+ - DOMAIN-KEYWORD,github,🎇 Thank U
+ - DOMAIN-KEYWORD,gmail,🎇 Thank U
+ - DOMAIN-KEYWORD,google,🎇 Thank U
+ - DOMAIN-KEYWORD,instagram,🎇 Thank U
+ - DOMAIN-KEYWORD,porn,🎇 Thank U
+ - DOMAIN-KEYWORD,sci-hub,🎇 Thank U
+ - DOMAIN-KEYWORD,spotify,🎇 Thank U
+ - DOMAIN-KEYWORD,telegram,🎇 Thank U
+ - DOMAIN-KEYWORD,twitter,🎇 Thank U
+ - DOMAIN-KEYWORD,whatsapp,🎇 Thank U
+ - DOMAIN-KEYWORD,youtube,🎇 Thank U
+ - DOMAIN-SUFFIX,4sqi.net,🎇 Thank U
+ - DOMAIN-SUFFIX,a248.e.akamai.net,🎇 Thank U
+ - DOMAIN-SUFFIX,adobedtm.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ampproject.org,🎇 Thank U
+ - DOMAIN-SUFFIX,android.com,🎇 Thank U
+ - DOMAIN-SUFFIX,aolcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,apkmirror.com,🎇 Thank U
+ - DOMAIN-SUFFIX,apkpure.com,🎇 Thank U
+ - DOMAIN-SUFFIX,app-measurement.com,🎇 Thank U
+ - DOMAIN-SUFFIX,appspot.com,🎇 Thank U
+ - DOMAIN-SUFFIX,archive.org,🎇 Thank U
+ - DOMAIN-SUFFIX,armorgames.com,🎇 Thank U
+ - DOMAIN-SUFFIX,aspnetcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,awsstatic.com,🎇 Thank U
+ - DOMAIN-SUFFIX,azureedge.net,🎇 Thank U
+ - DOMAIN-SUFFIX,azurewebsites.net,🎇 Thank U
+ - DOMAIN-SUFFIX,bandwagonhost.com,🎇 Thank U
+ - DOMAIN-SUFFIX,bing.com,🎇 Thank U
+ - DOMAIN-SUFFIX,bkrtx.com,🎇 Thank U
+ - DOMAIN-SUFFIX,blogcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,blogger.com,🎇 Thank U
+ - DOMAIN-SUFFIX,blogsmithmedia.com,🎇 Thank U
+ - DOMAIN-SUFFIX,blogspot.com,🎇 Thank U
+ - DOMAIN-SUFFIX,blogspot.hk,🎇 Thank U
+ - DOMAIN-SUFFIX,blogspot.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,bloomberg.cn,🎇 Thank U
+ - DOMAIN-SUFFIX,bloomberg.com,🎇 Thank U
+ - DOMAIN-SUFFIX,box.com,🎇 Thank U
+ - DOMAIN-SUFFIX,cachefly.net,🎇 Thank U
+ - DOMAIN-SUFFIX,cdnst.net,🎇 Thank U
+ - DOMAIN-SUFFIX,cloudfront.net,🎇 Thank U
+ - DOMAIN-SUFFIX,comodoca.com,🎇 Thank U
+ - DOMAIN-SUFFIX,daum.net,🎇 Thank U
+ - DOMAIN-SUFFIX,demdex.net,🎇 Thank U
+ - DOMAIN-SUFFIX,deskconnect.com,🎇 Thank U
+ - DOMAIN-SUFFIX,disqus.com,🎇 Thank U
+ - DOMAIN-SUFFIX,disquscdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dropbox.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dropboxapi.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dropboxstatic.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dropboxusercontent.com,🎇 Thank U
+ - DOMAIN-SUFFIX,duckduckgo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,edgecastcdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,edgekey.net,🎇 Thank U
+ - DOMAIN-SUFFIX,edgesuite.net,🎇 Thank U
+ - DOMAIN-SUFFIX,eurekavpt.com,🎇 Thank U
+ - DOMAIN-SUFFIX,fastmail.com,🎇 Thank U
+ - DOMAIN-SUFFIX,firebaseio.com,🎇 Thank U
+ - DOMAIN-SUFFIX,flickr.com,🎇 Thank U
+ - DOMAIN-SUFFIX,flipboard.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gfx.ms,🎇 Thank U
+ - DOMAIN-SUFFIX,gongm.in,🎇 Thank U
+ - DOMAIN-SUFFIX,hulu.com,🎇 Thank U
+ - DOMAIN-SUFFIX,id.heroku.com,🎇 Thank U
+ - DOMAIN-SUFFIX,io.io,🎇 Thank U
+ - DOMAIN-SUFFIX,issuu.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ixquick.com,🎇 Thank U
+ - DOMAIN-SUFFIX,jtvnw.net,🎇 Thank U
+ - DOMAIN-SUFFIX,kat.cr,🎇 Thank U
+ - DOMAIN-SUFFIX,kik.com,🎇 Thank U
+ - DOMAIN-SUFFIX,kobo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,kobobooks.com,🎇 Thank U
+ - DOMAIN-SUFFIX,licdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,live.net,🎇 Thank U
+ - DOMAIN-SUFFIX,livefilestore.com,🎇 Thank U
+ - DOMAIN-SUFFIX,llnwd.net,🎇 Thank U
+ - DOMAIN-SUFFIX,macrumors.com,🎇 Thank U
+ - DOMAIN-SUFFIX,medium.com,🎇 Thank U
+ - DOMAIN-SUFFIX,mega.nz,🎇 Thank U
+ - DOMAIN-SUFFIX,megaupload.com,🎇 Thank U
+ - DOMAIN-SUFFIX,messenger.com,🎇 Thank U
+ - DOMAIN-SUFFIX,netdna-cdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,nintendo.net,🎇 Thank U
+ - DOMAIN-SUFFIX,nsstatic.net,🎇 Thank U
+ - DOMAIN-SUFFIX,nytstyle.com,🎇 Thank U
+ - DOMAIN-SUFFIX,overcast.fm,🎇 Thank U
+ - DOMAIN-SUFFIX,openvpn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,periscope.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,pinimg.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pinterest.com,🎇 Thank U
+ - DOMAIN-SUFFIX,potato.im,🎇 Thank U
+ - DOMAIN-SUFFIX,prfct.co,🎇 Thank U
+ - DOMAIN-SUFFIX,pscp.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,quora.com,🎇 Thank U
+ - DOMAIN-SUFFIX,resilio.com,🎇 Thank U
+ - DOMAIN-SUFFIX,sfx.ms,🎇 Thank U
+ - DOMAIN-SUFFIX,shadowsocks.org,🎇 Thank U
+ - DOMAIN-SUFFIX,slack-edge.com,🎇 Thank U
+ - DOMAIN-SUFFIX,smartdnsproxy.com,🎇 Thank U
+ - DOMAIN-SUFFIX,sndcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,soundcloud.com,🎇 Thank U
+ - DOMAIN-SUFFIX,startpage.com,🎇 Thank U
+ - DOMAIN-SUFFIX,staticflickr.com,🎇 Thank U
+ - DOMAIN-SUFFIX,symauth.com,🎇 Thank U
+ - DOMAIN-SUFFIX,symcb.com,🎇 Thank U
+ - DOMAIN-SUFFIX,symcd.com,🎇 Thank U
+ - DOMAIN-SUFFIX,textnow.com,🎇 Thank U
+ - DOMAIN-SUFFIX,textnow.me,🎇 Thank U
+ - DOMAIN-SUFFIX,thefacebook.com,🎇 Thank U
+ - DOMAIN-SUFFIX,thepiratebay.org,🎇 Thank U
+ - DOMAIN-SUFFIX,torproject.org,🎇 Thank U
+ - DOMAIN-SUFFIX,trustasiassl.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tumblr.co,🎇 Thank U
+ - DOMAIN-SUFFIX,tumblr.com,🎇 Thank U
+ - DOMAIN-SUFFIX,tvb.com,🎇 Thank U
+ - DOMAIN-SUFFIX,txmblr.com,🎇 Thank U
+ - DOMAIN-SUFFIX,v2ex.com,🎇 Thank U
+ - DOMAIN-SUFFIX,vimeo.com,🎇 Thank U
+ - DOMAIN-SUFFIX,vine.co,🎇 Thank U
+ - DOMAIN-SUFFIX,vox-cdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,amazon.co.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,amazon.com,🎇 Thank U
+ - DOMAIN-SUFFIX,amazonaws.com,🎇 Thank U
+ - IP-CIDR,13.32.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,13.35.0.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,18.184.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,18.194.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,18.208.0.0/13,🎇 Thank U,no-resolve
+ - IP-CIDR,18.232.0.0/14,🎇 Thank U,no-resolve
+ - IP-CIDR,52.58.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,52.74.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,52.77.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,52.84.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,52.200.0.0/13,🎇 Thank U,no-resolve
+ - IP-CIDR,54.93.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,54.156.0.0/14,🎇 Thank U,no-resolve
+ - IP-CIDR,54.226.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,54.230.156.0/22,🎇 Thank U,no-resolve
+ - DOMAIN-KEYWORD,uk-live,🎇 Thank U
+ - DOMAIN-SUFFIX,bbc.co,🎇 Thank U
+ - DOMAIN-SUFFIX,bbc.com,🎇 Thank U
+ - DOMAIN-SUFFIX,apache.org,🎇 Thank U
+ - DOMAIN-SUFFIX,docker.com,🎇 Thank U
+ - DOMAIN-SUFFIX,elastic.co,🎇 Thank U
+ - DOMAIN-SUFFIX,elastic.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gcr.io,🎇 Thank U
+ - DOMAIN-SUFFIX,gitlab.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gitlab.io,🎇 Thank U
+ - DOMAIN-SUFFIX,jitpack.io,🎇 Thank U
+ - DOMAIN-SUFFIX,maven.org,🎇 Thank U
+ - DOMAIN-SUFFIX,medium.com,🎇 Thank U
+ - DOMAIN-SUFFIX,mvnrepository.com,🎇 Thank U
+ - DOMAIN-SUFFIX,quay.io,🎇 Thank U
+ - DOMAIN-SUFFIX,reddit.com,🎇 Thank U
+ - DOMAIN-SUFFIX,redhat.com,🎇 Thank U
+ - DOMAIN-SUFFIX,sonatype.org,🎇 Thank U
+ - DOMAIN-SUFFIX,sourcegraph.com,🎇 Thank U
+ - DOMAIN-SUFFIX,spring.io,🎇 Thank U
+ - DOMAIN-SUFFIX,spring.net,🎇 Thank U
+ - DOMAIN-SUFFIX,stackoverflow.com,🎇 Thank U
+ - DOMAIN-SUFFIX,discord.co,🎇 Thank U
+ - DOMAIN-SUFFIX,discord.com,🎇 Thank U
+ - DOMAIN-SUFFIX,discord.gg,🎇 Thank U
+ - DOMAIN-SUFFIX,discord.media,🎇 Thank U
+ - DOMAIN-SUFFIX,discordapp.com,🎇 Thank U
+ - DOMAIN-SUFFIX,discordapp.net,🎇 Thank U
+ - DOMAIN-SUFFIX,facebook.com,🎇 Thank U
+ - DOMAIN-SUFFIX,fb.com,🎇 Thank U
+ - DOMAIN-SUFFIX,fb.me,🎇 Thank U
+ - DOMAIN-SUFFIX,fbcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,fbcdn.net,🎇 Thank U
+ - IP-CIDR,31.13.24.0/21,🎇 Thank U,no-resolve
+ - IP-CIDR,31.13.64.0/18,🎇 Thank U,no-resolve
+ - IP-CIDR,45.64.40.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,66.220.144.0/20,🎇 Thank U,no-resolve
+ - IP-CIDR,69.63.176.0/20,🎇 Thank U,no-resolve
+ - IP-CIDR,69.171.224.0/19,🎇 Thank U,no-resolve
+ - IP-CIDR,74.119.76.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,103.4.96.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,129.134.0.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,157.240.0.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,173.252.64.0/18,🎇 Thank U,no-resolve
+ - IP-CIDR,179.60.192.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,185.60.216.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,204.15.20.0/22,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,github.com,🎇 Thank U
+ - DOMAIN-SUFFIX,github.io,🎇 Thank U
+ - DOMAIN-SUFFIX,githubapp.com,🎇 Thank U
+ - DOMAIN-SUFFIX,githubassets.com,🎇 Thank U
+ - DOMAIN-SUFFIX,githubusercontent.com,🎇 Thank U
+ - DOMAIN-SUFFIX,1e100.net,🎇 Thank U
+ - DOMAIN-SUFFIX,2mdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,app-measurement.net,🎇 Thank U
+ - DOMAIN-SUFFIX,g.co,🎇 Thank U
+ - DOMAIN-SUFFIX,ggpht.com,🎇 Thank U
+ - DOMAIN-SUFFIX,goo.gl,🎇 Thank U
+ - DOMAIN-SUFFIX,googleapis.cn,🎇 Thank U
+ - DOMAIN-SUFFIX,googleapis.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gstatic.cn,🎇 Thank U
+ - DOMAIN-SUFFIX,gstatic.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gvt0.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gvt1.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gvt2.com,🎇 Thank U
+ - DOMAIN-SUFFIX,gvt3.com,🎇 Thank U
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtu.be,🎇 Thank U
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🎇 Thank U
+ - DOMAIN-SUFFIX,youtube.com,🎇 Thank U
+ - DOMAIN-SUFFIX,yt.be,🎇 Thank U
+ - DOMAIN-SUFFIX,ytimg.com,🎇 Thank U
+ - IP-CIDR,74.125.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,173.194.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,120.232.181.162/32,🎇 Thank U,no-resolve
+ - IP-CIDR,120.241.147.226/32,🎇 Thank U,no-resolve
+ - IP-CIDR,120.253.253.226/32,🎇 Thank U,no-resolve
+ - IP-CIDR,120.253.255.162/32,🎇 Thank U,no-resolve
+ - IP-CIDR,120.253.255.34/32,🎇 Thank U,no-resolve
+ - IP-CIDR,120.253.255.98/32,🎇 Thank U,no-resolve
+ - IP-CIDR,180.163.150.162/32,🎇 Thank U,no-resolve
+ - IP-CIDR,180.163.150.34/32,🎇 Thank U,no-resolve
+ - IP-CIDR,180.163.151.162/32,🎇 Thank U,no-resolve
+ - IP-CIDR,180.163.151.34/32,🎇 Thank U,no-resolve
+ - IP-CIDR,203.208.39.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,203.208.40.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,203.208.41.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,203.208.43.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,203.208.50.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,220.181.174.162/32,🎇 Thank U,no-resolve
+ - IP-CIDR,220.181.174.226/32,🎇 Thank U,no-resolve
+ - IP-CIDR,220.181.174.34/32,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,cdninstagram.com,🎇 Thank U
+ - DOMAIN-SUFFIX,instagram.com,🎇 Thank U
+ - DOMAIN-SUFFIX,instagr.am,🎇 Thank U
+ - DOMAIN-SUFFIX,kakao.com,🎇 Thank U
+ - DOMAIN-SUFFIX,kakao.co.kr,🎇 Thank U
+ - DOMAIN-SUFFIX,kakaocdn.net,🎇 Thank U
+ - IP-CIDR,1.201.0.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,27.0.236.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,103.27.148.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,103.246.56.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,110.76.140.0/22,🎇 Thank U,no-resolve
+ - IP-CIDR,113.61.104.0/22,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,lin.ee,🎇 Thank U
+ - DOMAIN-SUFFIX,line-apps.com,🎇 Thank U
+ - DOMAIN-SUFFIX,line-cdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,line-scdn.net,🎇 Thank U
+ - DOMAIN-SUFFIX,line.me,🎇 Thank U
+ - DOMAIN-SUFFIX,line.naver.jp,🎇 Thank U
+ - DOMAIN-SUFFIX,nhncorp.jp,🎇 Thank U
+ - IP-CIDR,103.2.28.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,103.2.30.0/23,🎇 Thank U,no-resolve
+ - IP-CIDR,119.235.224.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,119.235.232.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,119.235.235.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,119.235.236.0/23,🎇 Thank U,no-resolve
+ - IP-CIDR,147.92.128.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,203.104.128.0/19,🎇 Thank U,no-resolve
+ - DOMAIN-KEYWORD,1drv,🎇 Thank U
+ - DOMAIN-KEYWORD,onedrive,🎇 Thank U
+ - DOMAIN-KEYWORD,skydrive,🎇 Thank U
+ - DOMAIN-SUFFIX,livefilestore.com,🎇 Thank U
+ - DOMAIN-SUFFIX,oneclient.sfx.ms,🎇 Thank U
+ - DOMAIN-SUFFIX,onedrive.com,🎇 Thank U
+ - DOMAIN-SUFFIX,onedrive.live.com,🎇 Thank U
+ - DOMAIN-SUFFIX,photos.live.com,🎇 Thank U
+ - DOMAIN-SUFFIX,skydrive.wns.windows.com,🎇 Thank U
+ - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🎇 Thank U
+ - DOMAIN-SUFFIX,storage.live.com,🎇 Thank U
+ - DOMAIN-SUFFIX,storage.msn.com,🎇 Thank U
+ - DOMAIN-KEYWORD,porn,🎇 Thank U
+ - DOMAIN-SUFFIX,8teenxxx.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ahcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,bcvcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,bongacams.com,🎇 Thank U
+ - DOMAIN-SUFFIX,chaturbate.com,🎇 Thank U
+ - DOMAIN-SUFFIX,dditscdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,livejasmin.com,🎇 Thank U
+ - DOMAIN-SUFFIX,phncdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,phprcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pornhub.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pornhubpremium.com,🎇 Thank U
+ - DOMAIN-SUFFIX,rdtcdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,redtube.com,🎇 Thank U
+ - DOMAIN-SUFFIX,sb-cd.com,🎇 Thank U
+ - DOMAIN-SUFFIX,spankbang.com,🎇 Thank U
+ - DOMAIN-SUFFIX,t66y.com,🎇 Thank U
+ - DOMAIN-SUFFIX,xhamster.com,🎇 Thank U
+ - DOMAIN-SUFFIX,xnxx-cdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,xnxx.com,🎇 Thank U
+ - DOMAIN-SUFFIX,xvideos-cdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,xvideos.com,🎇 Thank U
+ - DOMAIN-SUFFIX,ypncdn.com,🎇 Thank U
+ - DOMAIN-SUFFIX,pixiv.net,🎇 Thank U
+ - DOMAIN-SUFFIX,pximg.net,🎇 Thank U
+ - DOMAIN-SUFFIX,amplitude.com,🎇 Thank U
+ - DOMAIN-SUFFIX,firebaseio.com,🎇 Thank U
+ - DOMAIN-SUFFIX,hockeyapp.net,🎇 Thank U
+ - DOMAIN-SUFFIX,readdle.com,🎇 Thank U
+ - DOMAIN-SUFFIX,smartmailcloud.com,🎇 Thank U
+ - DOMAIN-SUFFIX,fanatical.com,🎇 Thank U
+ - DOMAIN-SUFFIX,humblebundle.com,🎇 Thank U
+ - DOMAIN-SUFFIX,underlords.com,🎇 Thank U
+ - DOMAIN-SUFFIX,valvesoftware.com,🎇 Thank U
+ - DOMAIN-SUFFIX,playartifact.com,🎇 Thank U
+ - DOMAIN-SUFFIX,steam-chat.com,🎇 Thank U
+ - DOMAIN-SUFFIX,steamcommunity.com,🎇 Thank U
+ - DOMAIN-SUFFIX,steamgames.com,🎇 Thank U
+ - DOMAIN-SUFFIX,steampowered.com,🎇 Thank U
+ - DOMAIN-SUFFIX,steamstatic.com,🎇 Thank U
+ - DOMAIN-SUFFIX,steamstat.us,🎇 Thank U
+ - DOMAIN,steambroadcast.akamaized.net,🎇 Thank U
+ - DOMAIN,steamcdn-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,steamcommunity-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,steamstore-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,steamusercontent-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,steamuserimages-a.akamaihd.net,🎇 Thank U
+ - DOMAIN,steampipe.akamaized.net,🎇 Thank U
+ - DOMAIN-SUFFIX,tap.io,🎇 Thank U
+ - DOMAIN-SUFFIX,taptap.tw,🎇 Thank U
+ - DOMAIN-SUFFIX,twitch.tv,🎇 Thank U
+ - DOMAIN-SUFFIX,ttvnw.net,🎇 Thank U
+ - DOMAIN-SUFFIX,jtvnw.net,🎇 Thank U
+ - DOMAIN-KEYWORD,ttvnw,🎇 Thank U
+ - DOMAIN-SUFFIX,t.co,🎇 Thank U
+ - DOMAIN-SUFFIX,twimg.co,🎇 Thank U
+ - DOMAIN-SUFFIX,twimg.com,🎇 Thank U
+ - DOMAIN-SUFFIX,twimg.org,🎇 Thank U
+ - DOMAIN-SUFFIX,t.me,🎇 Thank U
+ - DOMAIN-SUFFIX,tdesktop.com,🎇 Thank U
+ - DOMAIN-SUFFIX,telegra.ph,🎇 Thank U
+ - DOMAIN-SUFFIX,telegram.me,🎇 Thank U
+ - DOMAIN-SUFFIX,telegram.org,🎇 Thank U
+ - DOMAIN-SUFFIX,telesco.pe,🎇 Thank U
+ - IP-CIDR,91.108.0.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,109.239.140.0/24,🎇 Thank U,no-resolve
+ - IP-CIDR,149.154.160.0/20,🎇 Thank U,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🎇 Thank U,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🎇 Thank U,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🎇 Thank U
+ - DOMAIN-SUFFIX,teraboxcdn.com,🎇 Thank U
+ - IP-CIDR,18.194.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,34.224.0.0/12,🎇 Thank U,no-resolve
+ - IP-CIDR,54.242.0.0/15,🎇 Thank U,no-resolve
+ - IP-CIDR,50.22.198.204/30,🎇 Thank U,no-resolve
+ - IP-CIDR,208.43.122.128/27,🎇 Thank U,no-resolve
+ - IP-CIDR,108.168.174.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,173.192.231.32/27,🎇 Thank U,no-resolve
+ - IP-CIDR,158.85.5.192/27,🎇 Thank U,no-resolve
+ - IP-CIDR,174.37.243.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,158.85.46.128/27,🎇 Thank U,no-resolve
+ - IP-CIDR,173.192.222.160/27,🎇 Thank U,no-resolve
+ - IP-CIDR,184.173.128.0/17,🎇 Thank U,no-resolve
+ - IP-CIDR,158.85.224.160/27,🎇 Thank U,no-resolve
+ - IP-CIDR,75.126.150.0/16,🎇 Thank U,no-resolve
+ - IP-CIDR,69.171.235.0/16,🎇 Thank U,no-resolve
+ - DOMAIN-SUFFIX,mediawiki.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikibooks.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikidata.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikileaks.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikimedia.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikinews.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikipedia.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikiquote.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikisource.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikiversity.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wikivoyage.org,🎇 Thank U
+ - DOMAIN-SUFFIX,wiktionary.org,🎇 Thank U
+ - DOMAIN-SUFFIX,neulion.com,🎇 Thank U
+ - DOMAIN-SUFFIX,icntv.xyz,🎇 Thank U
+ - DOMAIN-SUFFIX,flzbcdn.xyz,🎇 Thank U
+ - DOMAIN-SUFFIX,ocnttv.com,🎇 Thank U
  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -3467,5 +3552,6 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+ - GEOIP,LAN,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之鱼
+ - MATCH,🎭 此配置仅可运用于学习
